@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock Market Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f1117;color:#e4e6eb;min-height:100vh;font-size:13px}
+.header{background:linear-gradient(135deg,#1a1d29,#2d1f3d);padding:10px 24px;border-bottom:1px solid #2a2d3a;display:flex;align-items:center;gap:16px}
+.header h1{font-size:18px;font-weight:700;background:linear-gradient(90deg,#7c3aed,#2563eb);-webkit-background-clip:text;-webkit-text-fill-color:transparent;white-space:nowrap}
+.nav-tabs{display:flex;gap:3px;background:#1a1d29;padding:3px;border-radius:6px}
+.nav-tab{padding:6px 14px;border-radius:4px;border:none;background:transparent;color:#9ca3af;font-size:11px;font-weight:500;cursor:pointer}
+.nav-tab:hover{color:#e4e6eb}
+.nav-tab.active{background:#4f46e5;color:#fff}
+.controls{display:flex;gap:6px;margin-left:auto;align-items:center}
+.cap-tabs{display:flex;gap:3px}
+.cap-tab{padding:5px 10px;border-radius:4px;border:1px solid #2a2d3a;background:transparent;color:#9ca3af;font-size:10px;cursor:pointer}
+.cap-tab:hover{border-color:#4f46e5;color:#e4e6eb}
+.cap-tab.active{background:#312e81;border-color:#4f46e5;color:#c7d2fe}
+.sector-select{padding:5px 8px;background:#1a1d29;border:1px solid #2a2d3a;border-radius:4px;color:#e4e6eb;font-size:10px;outline:none;max-width:140px}
+.sector-select:focus{border-color:#4f46e5}
+.main{padding:14px 20px;overflow-y:auto;height:calc(100vh - 48px)}
+.filter-bar{display:flex;gap:4px;margin-bottom:14px;align-items:center}
+.filter-btn{padding:6px 14px;border-radius:4px;border:1px solid #2a2d3a;background:#1a1d29;color:#9ca3af;font-size:11px;font-weight:500;cursor:pointer}
+.filter-btn:hover{border-color:#4f46e5;color:#e4e6eb}
+.filter-btn.active{background:#4f46e5;border-color:#4f46e5;color:#fff}
+.filter-btn.buy-active{background:#064e3b;border-color:#10b981;color:#34d399}
+.filter-btn.sell-active{background:#7f1d1d;border-color:#ef4444;color:#fca5a5}
+.filter-btn.hold-active{background:#78350f;border-color:#f59e0b;color:#fbbf24}
+.filter-info{margin-left:auto;font-size:10px;color:#6b7280}
+.counts{display:flex;gap:10px;margin-bottom:14px}
+.count-card{flex:1;background:#1a1d29;border:1px solid #2a2d3a;border-radius:6px;padding:10px 12px}
+.count-card .cc-l{font-size:9px;color:#6b7280;text-transform:uppercase;margin-bottom:2px}
+.count-card .cc-v{font-size:18px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px;margin-bottom:16px}
+.card{background:#1a1d29;border:1px solid #2a2d3a;border-radius:6px;padding:12px;cursor:pointer;transition:all .12s}
+.card:hover{border-color:#4f46e5;transform:translateY(-1px)}
+.card.b-buy{border-left:3px solid #10b981}
+.card.b-sell{border-left:3px solid #ef4444}
+.card.b-hold{border-left:3px solid #f59e0b}
+.card-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.card-hdr .c-sym{font-weight:700;font-size:13px}
+.card-hdr .c-name{font-size:10px;color:#6b7280;margin-left:6px}
+.badge{display:inline-block;padding:2px 8px;border-radius:3px;font-size:9px;font-weight:700}
+.badge-buy{background:#064e3b;color:#34d399}
+.badge-sell{background:#7f1d1d;color:#fca5a5}
+.badge-hold{background:#78350f;color:#fbbf24}
+.card-metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:7px}
+.cm{text-align:center;padding:4px 2px;background:#0f1117;border-radius:3px}
+.cm .cm-l{font-size:8px;color:#6b7280;text-transform:uppercase}
+.cm .cm-v{font-size:11px;font-weight:600}
+.cm .cm-t{font-size:8px}
+.card-why{font-size:10px;color:#9ca3af;line-height:1.3;border-top:1px solid #1f2937;padding-top:6px}
+.card-why strong{color:#c7d2fe}
+.positive{color:#10b981}.negative{color:#ef4444}.neutral{color:#f59e0b}
+.sec-hdr{display:flex;align-items:center;gap:8px;margin:14px 0 10px;padding-bottom:7px;border-bottom:1px solid #2a2d3a}
+.sec-hdr h3{font-size:13px;font-weight:600}
+.sec-hdr .cnt{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600}
+.sector-card{background:#1a1d29;border:1px solid #2a2d3a;border-radius:6px;padding:12px;margin-bottom:8px}
+.sector-card .sh{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.sector-card .sh h4{font-size:12px;font-weight:600}
+.sector-bar{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.sector-bar .bt{flex:1;height:5px;background:#1f2937;border-radius:3px;overflow:hidden}
+.sector-bar .bf{height:100%;border-radius:3px}
+.sector-bar .bs{font-size:10px;color:#9ca3af;min-width:32px;text-align:right}
+.sector-metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:6px}
+.sm{text-align:center;padding:4px 2px;background:#0f1117;border-radius:3px}
+.sm .sl{font-size:8px;color:#6b7280;text-transform:uppercase}
+.sm .sv{font-size:10px;font-weight:600}
+.sector-reason{font-size:10px;color:#9ca3af;line-height:1.3}
+.sector-stocks{font-size:9px;color:#6b7280;border-top:1px solid #1f2937;padding-top:5px;margin-top:6px}
+.sector-stocks span{margin-right:5px;cursor:pointer}
+.detail-view{display:none}
+.detail-back{padding:4px 10px;border-radius:4px;border:1px solid #2a2d3a;background:#1a1d29;color:#9ca3af;font-size:10px;cursor:pointer;margin-bottom:10px;display:inline-block}
+.detail-back:hover{border-color:#4f46e5;color:#e4e6eb}
+.detail-top{display:flex;justify-content:space-between;align-items:start;margin-bottom:12px}
+.detail-top h2{font-size:18px;font-weight:700}
+.detail-top .dt-sub{font-size:10px;color:#6b7280;margin-top:2px}
+.detail-top .dt-price{font-size:20px;font-weight:700;text-align:right}
+.detail-top .dt-chg{font-size:11px;margin-top:2px;text-align:right}
+.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.chart-section{background:#1a1d29;border:1px solid #2a2d3a;border-radius:6px;padding:10px}
+.chart-section .time-btns{display:flex;gap:3px;margin-bottom:8px}
+.chart-section .tb{padding:4px 10px;border-radius:3px;border:1px solid #2a2d3a;background:transparent;color:#9ca3af;font-size:10px;cursor:pointer}
+.chart-section .tb:hover{border-color:#4f46e5;color:#e4e6eb}
+.chart-section .tb.active{background:#4f46e5;border-color:#4f46e5;color:#fff}
+.chart-section .chart-wrap{height:140px}
+.fund-panel{background:#1a1d29;border:1px solid #2a2d3a;border-radius:6px;padding:12px}
+.fund-panel h4{font-size:11px;font-weight:600;margin-bottom:8px;color:#9ca3af;text-transform:uppercase;letter-spacing:.3px}
+.fund-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.fg{padding:6px 8px;background:#0f1117;border-radius:4px}
+.fg .fg-l{font-size:8px;color:#6b7280;text-transform:uppercase;margin-bottom:1px}
+.fg .fg-v{font-size:12px;font-weight:600}
+.fg .fg-t{font-size:8px}
+.fg .fg-note{font-size:8px;color:#6b7280;margin-top:1px}
+.tech-panel{background:#1a1d29;border:1px solid #2a2d3a;border-radius:6px;padding:12px;margin-bottom:12px}
+.tech-panel h4{font-size:11px;font-weight:600;margin-bottom:8px;color:#9ca3af;text-transform:uppercase;letter-spacing:.3px}
+.tech-inds{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.ti{padding:3px 8px;background:#0f1117;border-radius:3px;font-size:10px;display:flex;align-items:center;gap:4px}
+.ti .ti-n{color:#9ca3af}
+.ti .ti-s{padding:1px 5px;border-radius:2px;font-size:8px;font-weight:600}
+.ti-s.bullish{background:#064e3b;color:#34d399}
+.ti-s.bearish{background:#7f1d1d;color:#fca5a5}
+.ti-s.neutral{background:#78350f;color:#fbbf24}
+.rec-signal{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;border-radius:5px;font-size:13px;font-weight:700;margin-bottom:8px}
+.rec-signal.sig-buy{background:#064e3b;color:#34d399;border:1px solid #10b981}
+.rec-signal.sig-sell{background:#7f1d1d;color:#fca5a5;border:1px solid #ef4444}
+.rec-signal.sig-hold{background:#78350f;color:#fbbf24;border:1px solid #f59e0b}
+.rec-rationale{font-size:10px;color:#9ca3af;line-height:1.4}
+.rec-rationale li{list-style:none;padding:2px 0 2px 12px;position:relative}
+.rec-rationale li::before{content:'';position:absolute;left:0;top:7px;width:5px;height:5px;border-radius:50%}
+.rec-rationale li.green::before{background:#10b981}
+.rec-rationale li.red::before{background:#ef4444}
+.rec-rationale li.yellow::before{background:#f59e0b}
+.rec-targets{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-top:8px}
+.rt{text-align:center;padding:5px;background:#0f1117;border-radius:3px}
+.rt .rt-l{font-size:8px;color:#6b7280;text-transform:uppercase}
+.rt .rt-v{font-size:11px;font-weight:600}
+.portfolio-view{display:none;padding:14px 20px;overflow-y:auto;height:calc(100vh - 48px)}
+.port-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.port-hdr h2{font-size:16px;font-weight:700}
+.port-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+.ps-card{background:#1a1d29;border:1px solid #2a2d3a;border-radius:6px;padding:10px 12px}
+.ps-card .ps-l{font-size:9px;color:#6b7280;text-transform:uppercase;margin-bottom:3px}
+.ps-card .ps-v{font-size:15px;font-weight:700}
+.port-table{width:100%;border-collapse:collapse;font-size:11px}
+.port-table th{text-align:left;padding:7px 8px;font-size:9px;color:#6b7280;text-transform:uppercase;border-bottom:1px solid #2a2d3a}
+.port-table td{padding:8px;border-bottom:1px solid #1f2937}
+.port-table tr:hover{background:#1a1d29}
+.port-table tr{cursor:pointer}
+.alert-dot{width:6px;height:6px;border-radius:50%;display:inline-block;animation:pulse 2s infinite}
+.alert-dot.buy{background:#10b981}.alert-dot.sell{background:#ef4444}.alert-dot.hold{background:#f59e0b}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.add-btn{padding:5px 12px;border-radius:4px;border:1px dashed #4f46e5;background:transparent;color:#818cf8;font-size:11px;cursor:pointer}
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1000;align-items:center;justify-content:center}
+.modal-bg.show{display:flex}
+.modal{background:#1a1d29;border:1px solid #2a2d3a;border-radius:8px;padding:18px;width:360px}
+.modal h3{margin-bottom:12px;font-size:14px}
+.modal label{font-size:10px;color:#9ca3af;margin-bottom:2px;display:block}
+.modal input,.modal select{width:100%;padding:6px 8px;background:#0f1117;border:1px solid #2a2d3a;border-radius:4px;color:#e4e6eb;font-size:11px;margin-bottom:8px;outline:none}
+.modal-btns{display:flex;gap:6px;justify-content:flex-end;margin-top:10px}
+.btn-p{padding:6px 14px;background:#4f46e5;border:none;border-radius:4px;color:#fff;font-size:11px;cursor:pointer}
+.btn-s{padding:6px 14px;background:transparent;border:1px solid #2a2d3a;border-radius:4px;color:#9ca3af;font-size:11px;cursor:pointer}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:#2a2d3a;border-radius:3px}
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>Stock Market Dashboard</h1>
+    <div class="nav-tabs">
+        <button class="nav-tab active" data-view="nse">NSE (Nifty)</button>
+        <button class="nav-tab" data-view="bse">BSE (Sensex)</button>
+        <button class="nav-tab" data-view="nasdaq">NASDAQ</button>
+        <button class="nav-tab" data-view="portfolio">Portfolio</button>
+    </div>
+</div>
+<div class="main" id="mainView">
+    <div id="summaryView">
+        <div class="filter-bar">
+            <button class="filter-btn active" data-vf="all">All</button>
+            <button class="filter-btn" data-vf="buy">Buy</button>
+            <button class="filter-btn" data-vf="hold">Hold</button>
+            <button class="filter-btn" data-vf="sell">Sell</button>
+            <button class="filter-btn" data-vf="sectors" style="border-color:#6366f1;color:#a5b4fc">Sectors</button>
+            <div style="width:1px;height:20px;background:#2a2d3a;margin:0 6px"></div>
+            <div class="cap-tabs">
+                <button class="cap-tab active" data-cap="all">All</button>
+                <button class="cap-tab" data-cap="large">Large</button>
+                <button class="cap-tab" data-cap="mid">Mid</button>
+                <button class="cap-tab" data-cap="small">Small</button>
+            </div>
+            <select class="sector-select" id="sectorFilter"><option value="all">All Sectors</option></select>
+            <span class="filter-info" id="filterInfo"></span>
+        </div>
+        <div id="summaryContent"></div>
+    </div>
+    <div class="detail-view" id="detailView">
+        <button class="detail-back" id="backBtn">&larr; Back</button>
+        <div class="detail-top">
+            <div><h2 id="dSym"></h2><div class="dt-sub" id="dName"></div></div>
+            <div><div class="dt-price" id="dPrice"></div><div class="dt-chg" id="dChg"></div></div>
+        </div>
+        <div class="detail-grid">
+            <div class="chart-section">
+                <div class="time-btns"><button class="tb active" data-p="1M">1M</button><button class="tb" data-p="6M">6M</button><button class="tb" data-p="1Y">1Y</button></div>
+                <div class="chart-wrap"><canvas id="stockChart"></canvas></div>
+            </div>
+            <div class="fund-panel" id="fundPanel"></div>
+        </div>
+        <div class="tech-panel" id="techPanel"></div>
+    </div>
+</div>
+<div class="portfolio-view" id="portfolioView">
+    <div class="port-hdr"><h2>My Portfolio</h2><button class="add-btn" id="addBtn">+ Add Stock</button></div>
+    <div class="port-summary" id="portSummary"></div>
+    <table class="port-table"><thead><tr><th>Stock</th><th>Exchange</th><th>Qty</th><th>Avg Cost</th><th>Current</th><th>P&L</th><th>Signal</th><th></th></tr></thead><tbody id="portBody"></tbody></table>
+</div>
+<div class="modal-bg" id="addModal">
+    <div class="modal"><h3>Add Stock</h3>
+    <label>Exchange</label><select id="mExch"><option value="nse">NSE</option><option value="bse">BSE</option><option value="nasdaq">NASDAQ</option></select>
+    <label>Symbol</label><input id="mSym" placeholder="e.g. RELIANCE, ATHER, AAPL">
+    <label>Qty</label><input type="number" id="mQty" placeholder="Shares">
+    <label>Avg Price</label><input type="number" id="mPrice" placeholder="Cost/share" step="0.01">
+    <div class="modal-btns"><button class="btn-s" id="mCancel">Cancel</button><button class="btn-p" id="mAdd">Add</button></div>
+    </div>
+</div>
+<script>
+/* SCRIPT_CONTENT_PLACEHOLDER */
+</script>
+</body>
+</html>
