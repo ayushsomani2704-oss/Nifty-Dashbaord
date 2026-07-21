@@ -1,42 +1,18 @@
 {
-  "generated": "2026-07-21T07:46:03",
-  "alertCount": 3,
+  "generated": "2026-07-21T17:58:55",
+  "alertCount": 1,
   "alerts": [
     {
-      "symbol": "AXISBANK",
-      "exchange": "nse",
-      "qty": 49,
-      "avgPrice": 920.65,
-      "currentPrice": 1256.0,
+      "symbol": "YESBANK",
+      "exchange": "bse",
+      "qty": 700,
+      "avgPrice": 21.99,
+      "currentPrice": 22.93,
       "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": -2.2,
+      "score": 1.7,
       "change": "BUY -> HOLD",
-      "timestamp": "2026-07-21T07:46:03"
-    },
-    {
-      "symbol": "FCL",
-      "exchange": "nse",
-      "qty": 200,
-      "avgPrice": 45.04,
-      "currentPrice": 39.39,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.25,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-07-21T07:46:03"
-    },
-    {
-      "symbol": "JIOFIN",
-      "exchange": "nse",
-      "qty": 74,
-      "avgPrice": 272.04,
-      "currentPrice": 238.92,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -1.55,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-07-21T07:46:03"
+      "timestamp": "2026-07-21T17:58:55"
     }
   ]
 }
