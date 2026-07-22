@@ -1,42 +1,54 @@
 {
-  "generated": "2026-07-22T07:46:55",
-  "alertCount": 3,
+  "generated": "2026-07-22T17:52:51",
+  "alertCount": 4,
   "alerts": [
     {
       "symbol": "AUBANK",
       "exchange": "bse",
       "qty": 14,
       "avgPrice": 251.5,
-      "currentPrice": 993.3,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.7,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-07-22T07:46:55"
+      "currentPrice": 1003.5,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.5,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-07-22T17:52:51"
     },
     {
       "symbol": "FCL",
       "exchange": "nse",
       "qty": 200,
       "avgPrice": 45.04,
-      "currentPrice": 39.39,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.75,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-07-22T07:46:55"
+      "currentPrice": 40.05,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 5.85,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-07-22T17:52:51"
     },
     {
-      "symbol": "HDFCBANK",
-      "exchange": "nse",
-      "qty": 88,
-      "avgPrice": 851.18,
-      "currentPrice": 761.45,
+      "symbol": "HDFCAMC",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 2591.55,
+      "currentPrice": 2581.15,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 1.45,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-07-22T17:52:51"
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 910.22,
+      "currentPrice": 1299.7,
       "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.1,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-07-22T07:46:55"
+      "newSignal": "BUY",
+      "score": 3.0,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-07-22T17:52:51"
     }
   ]
 }
