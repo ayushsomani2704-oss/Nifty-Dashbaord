@@ -1,18 +1,42 @@
 {
-  "generated": "2026-07-21T17:58:55",
-  "alertCount": 1,
+  "generated": "2026-07-22T07:46:55",
+  "alertCount": 3,
   "alerts": [
     {
-      "symbol": "YESBANK",
+      "symbol": "AUBANK",
       "exchange": "bse",
-      "qty": 700,
-      "avgPrice": 21.99,
-      "currentPrice": 22.93,
+      "qty": 14,
+      "avgPrice": 251.5,
+      "currentPrice": 993.3,
       "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": 1.7,
+      "score": 2.7,
       "change": "BUY -> HOLD",
-      "timestamp": "2026-07-21T17:58:55"
+      "timestamp": "2026-07-22T07:46:55"
+    },
+    {
+      "symbol": "FCL",
+      "exchange": "nse",
+      "qty": 200,
+      "avgPrice": 45.04,
+      "currentPrice": 39.39,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.75,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-07-22T07:46:55"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "exchange": "nse",
+      "qty": 88,
+      "avgPrice": 851.18,
+      "currentPrice": 761.45,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -3.1,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-07-22T07:46:55"
     }
   ]
 }
