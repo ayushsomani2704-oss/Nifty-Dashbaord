@@ -1,54 +1,5 @@
 {
-  "generated": "2026-07-23T18:03:01",
-  "alertCount": 4,
-  "alerts": [
-    {
-      "symbol": "AUBANK",
-      "exchange": "bse",
-      "qty": 14,
-      "avgPrice": 251.5,
-      "currentPrice": 980.05,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.2,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-07-23T18:03:01"
-    },
-    {
-      "symbol": "BANDHANBNK",
-      "exchange": "bse",
-      "qty": 6,
-      "avgPrice": 205.9,
-      "currentPrice": 173.4,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 0.6,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-07-23T18:03:01"
-    },
-    {
-      "symbol": "HUDCO",
-      "exchange": "bse",
-      "qty": 50,
-      "avgPrice": 269.96,
-      "currentPrice": 198.0,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -5.0,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-07-23T18:03:01"
-    },
-    {
-      "symbol": "JIOFIN",
-      "exchange": "nse",
-      "qty": 74,
-      "avgPrice": 272.04,
-      "currentPrice": 234.8,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -5.5,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-07-23T18:03:01"
-    }
-  ]
+  "generated": "2026-07-24T07:45:37",
+  "alertCount": 0,
+  "alerts": []
 }
