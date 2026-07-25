@@ -1,5 +1,18 @@
 {
-  "generated": "2026-07-24T18:07:30",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-07-25T06:40:56",
+  "alertCount": 1,
+  "alerts": [
+    {
+      "symbol": "SBIN",
+      "exchange": "nse",
+      "qty": 50,
+      "avgPrice": 866.45,
+      "currentPrice": 1015.0,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.35,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-07-25T06:40:56"
+    }
+  ]
 }
