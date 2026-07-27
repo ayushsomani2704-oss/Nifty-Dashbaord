@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-25T06:40:56",
+  "generated": "2026-07-27T18:18:18",
   "alertCount": 1,
   "alerts": [
     {
-      "symbol": "SBIN",
-      "exchange": "nse",
-      "qty": 50,
-      "avgPrice": 866.45,
-      "currentPrice": 1015.0,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.35,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-07-25T06:40:56"
+      "symbol": "VIYASH",
+      "exchange": "bse",
+      "qty": 16,
+      "avgPrice": 275.01,
+      "currentPrice": 251.0,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.2,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-07-27T18:18:18"
     }
   ]
 }
