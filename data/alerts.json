@@ -1,5 +1,42 @@
 {
-  "generated": "2026-07-30T23:15:05",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-07-31T15:17:58",
+  "alertCount": 3,
+  "alerts": [
+    {
+      "symbol": "AUBANK",
+      "exchange": "bse",
+      "qty": 14,
+      "avgPrice": 251.5,
+      "currentPrice": 1029.05,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 5.05,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-07-31T15:17:58"
+    },
+    {
+      "symbol": "FCL",
+      "exchange": "nse",
+      "qty": 200,
+      "avgPrice": 45.04,
+      "currentPrice": 37.73,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 1.95,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-07-31T15:17:58"
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 910.22,
+      "currentPrice": 1331.05,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.4,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-07-31T15:17:58"
+    }
+  ]
 }
