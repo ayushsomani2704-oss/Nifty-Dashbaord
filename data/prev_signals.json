@@ -1,28 +1,28 @@
 {
   "APOLLOHOSP": {
     "signal": "BUY",
-    "score": 5.25,
-    "price": 8988.0
+    "score": 4.6,
+    "price": 8957.0
   },
   "ASIANPAINT": {
     "signal": "BUY",
     "score": 4.7,
-    "price": 2746.2
+    "price": 2747.3
   },
   "ASTERDM": {
     "signal": "BUY",
     "score": 4.75,
-    "price": 814.2
+    "price": 818.55
   },
   "ATHERENERG": {
     "signal": "BUY",
-    "score": 5.45,
-    "price": 1241.55
+    "score": 4.95,
+    "price": 1260.8
   },
   "AUBANK": {
     "signal": "BUY",
-    "score": 4.55,
-    "price": 1029.05
+    "score": 5.2,
+    "price": 1046.25
   },
   "AXISBANK": {
     "signal": "HOLD",
@@ -32,7 +32,7 @@
   "BANDHANBNK": {
     "signal": "HOLD",
     "score": 0.45,
-    "price": 172.65
+    "price": 174.05
   },
   "BHARTIARTL": {
     "signal": "HOLD",
@@ -41,23 +41,23 @@
   },
   "CELLO": {
     "signal": "SELL",
-    "score": -3.55,
-    "price": 338.9
+    "score": -4.85,
+    "price": 344.0
   },
   "ECLERX": {
     "signal": "HOLD",
-    "score": 1.2,
-    "price": 1905.3
+    "score": 0.15,
+    "price": 1849.8
   },
   "FCL": {
-    "signal": "HOLD",
-    "score": 1.95,
-    "price": 37.73
+    "signal": "BUY",
+    "score": 3.45,
+    "price": 39.32
   },
   "FINPIPE": {
     "signal": "SELL",
     "score": -4.9,
-    "price": 162.91
+    "price": 162.37
   },
   "GOLD1-E": {
     "signal": "HOLD",
@@ -67,7 +67,7 @@
   "GROWW": {
     "signal": "HOLD",
     "score": -1.8,
-    "price": 192.4
+    "price": 194.4
   },
   "HAL": {
     "signal": "BUY",
@@ -76,8 +76,8 @@
   },
   "HDFCAMC": {
     "signal": "HOLD",
-    "score": -1.0,
-    "price": 2546.25
+    "score": 1.5,
+    "price": 2619.0
   },
   "HDFCBANK": {
     "signal": "SELL",
@@ -86,13 +86,13 @@
   },
   "HINDCOPPER": {
     "signal": "HOLD",
-    "score": -2.1,
-    "price": 480.6
+    "score": 1.65,
+    "price": 491.85
   },
   "HUDCO": {
     "signal": "SELL",
-    "score": -4.9,
-    "price": 196.1
+    "score": -4.0,
+    "price": 194.9
   },
   "ICICIBANK": {
     "signal": "BUY",
@@ -111,13 +111,13 @@
   },
   "KALYANKJIL": {
     "signal": "HOLD",
-    "score": 0.2,
-    "price": 634.4
+    "score": 0.35,
+    "price": 612.75
   },
   "KWIL": {
     "signal": "HOLD",
-    "score": -2.0,
-    "price": 30.25
+    "score": -2.5,
+    "price": 30.92
   },
   "NTPC": {
     "signal": "HOLD",
@@ -125,9 +125,9 @@
     "price": 347.25
   },
   "PAYTM": {
-    "signal": "BUY",
-    "score": 3.4,
-    "price": 1331.05
+    "signal": "HOLD",
+    "score": 2.9,
+    "price": 1340.75
   },
   "RELIANCE": {
     "signal": "SELL",
@@ -146,8 +146,8 @@
   },
   "TARSONS": {
     "signal": "BUY",
-    "score": 4.75,
-    "price": 317.5
+    "score": 4.65,
+    "price": 313.65
   },
   "TITAN": {
     "signal": "BUY",
@@ -157,16 +157,16 @@
   "UNIONBANK": {
     "signal": "BUY",
     "score": 4.7,
-    "price": 170.45
+    "price": 171.15
   },
   "VIYASH": {
     "signal": "HOLD",
-    "score": 2.8,
-    "price": 251.9
+    "score": 1.8,
+    "price": 252.05
   },
   "YESBANK": {
     "signal": "HOLD",
-    "score": 1.7,
-    "price": 22.54
+    "score": 1.1,
+    "price": 22.77
   }
 }

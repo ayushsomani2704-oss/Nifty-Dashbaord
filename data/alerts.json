@@ -1,5 +1,30 @@
 {
-  "generated": "2026-08-03T15:43:34",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-08-03T23:10:01",
+  "alertCount": 2,
+  "alerts": [
+    {
+      "symbol": "FCL",
+      "exchange": "nse",
+      "qty": 200,
+      "avgPrice": 45.04,
+      "currentPrice": 39.32,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.45,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-08-03T23:10:01"
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 910.22,
+      "currentPrice": 1340.75,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.9,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-08-03T23:10:01"
+    }
+  ]
 }
