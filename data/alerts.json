@@ -1,54 +1,5 @@
 {
-  "generated": "2026-08-05T15:13:49",
-  "alertCount": 4,
-  "alerts": [
-    {
-      "symbol": "NTPC",
-      "exchange": "nse",
-      "qty": 50,
-      "avgPrice": 356.0,
-      "currentPrice": 343.65,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -5.25,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-08-05T15:13:49"
-    },
-    {
-      "symbol": "PAYTM",
-      "exchange": "bse",
-      "qty": 15,
-      "avgPrice": 910.22,
-      "currentPrice": 1408.0,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.75,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-08-05T15:13:49"
-    },
-    {
-      "symbol": "RELIANCE",
-      "exchange": "nse",
-      "qty": 32,
-      "avgPrice": 630.71,
-      "currentPrice": 1290.9,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -5.05,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-08-05T15:13:49"
-    },
-    {
-      "symbol": "VIYASH",
-      "exchange": "bse",
-      "qty": 16,
-      "avgPrice": 275.01,
-      "currentPrice": 266.45,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.4,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-08-05T15:13:49"
-    }
-  ]
+  "generated": "2026-08-05T23:08:01",
+  "alertCount": 0,
+  "alerts": []
 }
