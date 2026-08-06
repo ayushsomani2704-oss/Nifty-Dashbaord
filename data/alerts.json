@@ -1,5 +1,42 @@
 {
-  "generated": "2026-08-05T23:08:01",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-08-06T15:13:54",
+  "alertCount": 3,
+  "alerts": [
+    {
+      "symbol": "KALYANKJIL",
+      "exchange": "bse",
+      "qty": 25,
+      "avgPrice": 512.0,
+      "currentPrice": 568.0,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 4.5,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-08-06T15:13:54"
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 910.22,
+      "currentPrice": 1430.2,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 4.75,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-08-06T15:13:54"
+    },
+    {
+      "symbol": "VIYASH",
+      "exchange": "bse",
+      "qty": 16,
+      "avgPrice": 275.01,
+      "currentPrice": 273.55,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.75,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-08-06T15:13:54"
+    }
+  ]
 }
