@@ -1,30 +1,5 @@
 {
-  "generated": "2026-08-07T01:33:27",
-  "alertCount": 2,
-  "alerts": [
-    {
-      "symbol": "FCL",
-      "exchange": "nse",
-      "qty": 200,
-      "avgPrice": 45.04,
-      "currentPrice": 41.75,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 5.35,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-08-07T01:33:27"
-    },
-    {
-      "symbol": "HINDCOPPER",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 738.55,
-      "currentPrice": 533.75,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.9,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-08-07T01:33:27"
-    }
-  ]
+  "generated": "2026-08-07T14:11:30",
+  "alertCount": 0,
+  "alerts": []
 }
