@@ -1,18 +1,5 @@
 {
-  "generated": "2026-08-12T14:20:10",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "CELLO",
-      "exchange": "bse",
-      "qty": 23,
-      "avgPrice": 648.0,
-      "currentPrice": 378.65,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -0.35,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-08-12T14:20:10"
-    }
-  ]
+  "generated": "2026-08-12T22:50:45",
+  "alertCount": 0,
+  "alerts": []
 }
