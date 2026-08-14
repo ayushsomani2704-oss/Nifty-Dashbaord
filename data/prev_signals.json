@@ -1,7 +1,7 @@
 {
   "APOLLOHOSP": {
     "signal": "BUY",
-    "score": 4.0,
+    "score": 3.5,
     "price": 8590.0
   },
   "ASIANPAINT": {
@@ -11,7 +11,7 @@
   },
   "ASTERDM": {
     "signal": "BUY",
-    "score": 3.9,
+    "score": 4.1,
     "price": 824.1
   },
   "ATHERENERG": {
@@ -36,7 +36,7 @@
   },
   "BHARTIARTL": {
     "signal": "HOLD",
-    "score": 1.8,
+    "score": 2.0,
     "price": 1939.1
   },
   "CELLO": {
@@ -46,7 +46,7 @@
   },
   "ECLERX": {
     "signal": "HOLD",
-    "score": 1.85,
+    "score": 2.35,
     "price": 1869.15
   },
   "FCL": {
@@ -62,11 +62,11 @@
   "GOLD1-E": {
     "signal": "BUY",
     "score": 4.0,
-    "price": 126.45
+    "price": 125.48
   },
   "GROWW": {
     "signal": "HOLD",
-    "score": -0.75,
+    "score": -1.25,
     "price": 198.05
   },
   "HAL": {
@@ -86,7 +86,7 @@
   },
   "HINDCOPPER": {
     "signal": "BUY",
-    "score": 6.0,
+    "score": 5.0,
     "price": 544.5
   },
   "HUDCO": {
@@ -101,7 +101,7 @@
   },
   "IDEA": {
     "signal": "HOLD",
-    "score": 2.05,
+    "score": 1.95,
     "price": 13.51
   },
   "JIOFIN": {
