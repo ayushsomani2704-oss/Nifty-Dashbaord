@@ -1,5 +1,30 @@
 {
-  "generated": "2026-08-14T22:32:29",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-08-17T13:36:30",
+  "alertCount": 2,
+  "alerts": [
+    {
+      "symbol": "GOLD1-E",
+      "exchange": "nse",
+      "qty": 260,
+      "avgPrice": 112.57,
+      "currentPrice": 125.13,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 1.0,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-08-17T13:36:30"
+    },
+    {
+      "symbol": "VIYASH",
+      "exchange": "bse",
+      "qty": 16,
+      "avgPrice": 275.01,
+      "currentPrice": 255.6,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 0.9,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-08-17T13:36:30"
+    }
+  ]
 }
