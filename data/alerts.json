@@ -1,18 +1,5 @@
 {
-  "generated": "2026-08-18T13:40:44",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "ASIANPAINT",
-      "exchange": "nse",
-      "qty": 25,
-      "avgPrice": 2625.54,
-      "currentPrice": 2687.5,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.6,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-08-18T13:40:44"
-    }
-  ]
+  "generated": "2026-08-18T22:31:22",
+  "alertCount": 0,
+  "alerts": []
 }
