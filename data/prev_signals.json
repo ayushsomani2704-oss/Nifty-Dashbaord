@@ -1,63 +1,63 @@
 {
   "APOLLOHOSP": {
     "signal": "BUY",
-    "score": 5.85,
-    "price": 8920.5
+    "score": 4.85,
+    "price": 8825.5
   },
   "ASIANPAINT": {
-    "signal": "BUY",
-    "score": 3.1,
-    "price": 2696.3
+    "signal": "HOLD",
+    "score": 2.6,
+    "price": 2687.5
   },
   "ASTERDM": {
     "signal": "BUY",
-    "score": 3.4,
-    "price": 823.05
+    "score": 3.9,
+    "price": 819.6
   },
   "ATHERENERG": {
     "signal": "BUY",
     "score": 3.35,
-    "price": 1511.05
+    "price": 1484.8
   },
   "AUBANK": {
     "signal": "BUY",
-    "score": 3.8,
-    "price": 1087.7
+    "score": 5.2,
+    "price": 1079.0
   },
   "AXISBANK": {
     "signal": "HOLD",
-    "score": -2.4,
-    "price": 1217.4
+    "score": -2.25,
+    "price": 1227.3
   },
   "BANDHANBNK": {
     "signal": "HOLD",
-    "score": -0.9,
-    "price": 173.2
+    "score": 0.1,
+    "price": 173.25
   },
   "BHARTIARTL": {
     "signal": "HOLD",
-    "score": 2.4,
-    "price": 1992.1
+    "score": 1.6,
+    "price": 1969.3
   },
   "CELLO": {
     "signal": "HOLD",
-    "score": -0.55,
-    "price": 377.65
+    "score": -0.35,
+    "price": 369.45
   },
   "ECLERX": {
     "signal": "HOLD",
-    "score": 1.35,
-    "price": 1896.25
+    "score": 0.7,
+    "price": 1854.05
   },
   "FCL": {
     "signal": "BUY",
-    "score": 5.05,
-    "price": 43.36
+    "score": 4.55,
+    "price": 43.41
   },
   "FINPIPE": {
     "signal": "SELL",
     "score": -5.7,
-    "price": 159.24
+    "price": 159.36
   },
   "GOLD1-E": {
     "signal": "HOLD",
@@ -66,107 +66,107 @@
   },
   "GROWW": {
     "signal": "HOLD",
-    "score": -2.05,
-    "price": 196.15
+    "score": -1.25,
+    "price": 198.7
   },
   "HAL": {
     "signal": "BUY",
     "score": 4.55,
-    "price": 5029.9
+    "price": 5059.0
   },
   "HDFCAMC": {
     "signal": "HOLD",
-    "score": -1.9,
-    "price": 2500.0
+    "score": -1.95,
+    "price": 2521.15
   },
   "HDFCBANK": {
     "signal": "SELL",
-    "score": -5.7,
-    "price": 727.0
+    "score": -5.2,
+    "price": 729.0
   },
   "HINDCOPPER": {
     "signal": "BUY",
-    "score": 5.0,
-    "price": 528.85
+    "score": 4.65,
+    "price": 572.5
   },
   "HUDCO": {
     "signal": "SELL",
-    "score": -6.0,
-    "price": 188.4
+    "score": -4.5,
+    "price": 189.15
   },
   "ICICIBANK": {
     "signal": "BUY",
     "score": 3.9,
-    "price": 1417.0
+    "price": 1415.3
   },
   "IDEA": {
     "signal": "HOLD",
-    "score": 2.15,
-    "price": 14.11
+    "score": 1.35,
+    "price": 13.71
   },
   "JIOFIN": {
     "signal": "HOLD",
-    "score": -1.45,
-    "price": 249.05
+    "score": -0.75,
+    "price": 249.75
   },
   "KALYANKJIL": {
     "signal": "BUY",
     "score": 4.65,
-    "price": 608.25
+    "price": 609.25
   },
   "KWIL": {
     "signal": "HOLD",
-    "score": 2.5,
-    "price": 35.97
+    "score": 1.65,
+    "price": 38.73
   },
   "NTPC": {
     "signal": "SELL",
-    "score": -4.7,
-    "price": 340.0
+    "score": -4.9,
+    "price": 337.0
   },
   "PAYTM": {
     "signal": "BUY",
     "score": 3.35,
-    "price": 1604.0
+    "price": 1583.0
   },
   "RELIANCE": {
     "signal": "HOLD",
-    "score": -1.25,
-    "price": 1310.0
+    "score": -1.6,
+    "price": 1316.0
   },
   "SBIN": {
     "signal": "BUY",
-    "score": 4.4,
-    "price": 1067.7
+    "score": 4.7,
+    "price": 1061.2
   },
   "SILVERIETF-E": {
     "signal": "HOLD",
-    "score": 1.05,
+    "score": 0.55,
     "price": 221.22
   },
   "TARSONS": {
     "signal": "BUY",
-    "score": 5.2,
-    "price": 364.1
+    "score": 5.35,
+    "price": 361.75
   },
   "TITAN": {
     "signal": "BUY",
-    "score": 4.05,
-    "price": 5056.2
+    "score": 4.55,
+    "price": 5068.5
   },
   "UNIONBANK": {
     "signal": "BUY",
     "score": 4.5,
-    "price": 187.0
+    "price": 188.0
   },
   "VIYASH": {
     "signal": "HOLD",
-    "score": 0.9,
-    "price": 255.6
+    "score": 0.8,
+    "price": 252.5
   },
   "YESBANK": {
     "signal": "HOLD",
-    "score": 0.25,
-    "price": 22.7
+    "score": 0.95,
+    "price": 22.91
   }
 }
