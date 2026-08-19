@@ -6,7 +6,7 @@
   },
   "ASIANPAINT": {
     "signal": "HOLD",
-    "score": 0.9,
+    "score": 2.9,
     "price": 2628.4
   },
   "ASTERDM": {
@@ -31,7 +31,7 @@
   },
   "BANDHANBNK": {
     "signal": "HOLD",
-    "score": -1.2,
+    "score": -1.35,
     "price": 170.4
   },
   "BHARTIARTL": {
@@ -46,7 +46,7 @@
   },
   "ECLERX": {
     "signal": "HOLD",
-    "score": -0.0,
+    "score": -0.5,
     "price": 1805.6
   },
   "FCL": {
@@ -56,13 +56,13 @@
   },
   "FINPIPE": {
     "signal": "SELL",
-    "score": -5.2,
+    "score": -5.8,
     "price": 158.34
   },
   "GOLD1-E": {
     "signal": "HOLD",
     "score": 1.0,
-    "price": 126.42
+    "price": 126.43
   },
   "GROWW": {
     "signal": "HOLD",
@@ -141,8 +141,8 @@
   },
   "SILVERIETF-E": {
     "signal": "HOLD",
-    "score": 0.7,
-    "price": 223.61
+    "score": -0.45,
+    "price": 221.62
   },
   "TARSONS": {
     "signal": "BUY",
