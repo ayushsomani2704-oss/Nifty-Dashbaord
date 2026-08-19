@@ -2,62 +2,62 @@
   "APOLLOHOSP": {
     "signal": "BUY",
     "score": 4.85,
-    "price": 8825.5
+    "price": 8817.0
   },
   "ASIANPAINT": {
     "signal": "HOLD",
-    "score": 2.6,
-    "price": 2687.5
+    "score": 0.9,
+    "price": 2628.4
   },
   "ASTERDM": {
     "signal": "BUY",
     "score": 3.9,
-    "price": 819.6
+    "price": 817.8
   },
   "ATHERENERG": {
     "signal": "BUY",
-    "score": 3.35,
-    "price": 1484.8
+    "score": 3.25,
+    "price": 1465.45
   },
   "AUBANK": {
     "signal": "BUY",
-    "score": 5.3,
-    "price": 1079.0
+    "score": 5.2,
+    "price": 1076.0
   },
   "AXISBANK": {
     "signal": "HOLD",
-    "score": -2.25,
-    "price": 1227.3
+    "score": -1.75,
+    "price": 1243.0
   },
   "BANDHANBNK": {
     "signal": "HOLD",
-    "score": 0.1,
-    "price": 173.25
+    "score": -1.2,
+    "price": 170.4
   },
   "BHARTIARTL": {
     "signal": "HOLD",
-    "score": 1.6,
-    "price": 1969.3
+    "score": 0.8,
+    "price": 1934.2
   },
   "CELLO": {
     "signal": "HOLD",
-    "score": -0.45,
-    "price": 369.45
+    "score": -1.9,
+    "price": 362.7
   },
   "ECLERX": {
     "signal": "HOLD",
-    "score": 0.7,
-    "price": 1854.05
+    "score": -0.0,
+    "price": 1805.6
   },
   "FCL": {
     "signal": "BUY",
-    "score": 4.55,
-    "price": 43.41
+    "score": 5.05,
+    "price": 43.81
   },
   "FINPIPE": {
     "signal": "SELL",
-    "score": -5.7,
-    "price": 159.36
+    "score": -5.2,
+    "price": 158.34
   },
   "GOLD1-E": {
     "signal": "HOLD",
@@ -66,78 +66,78 @@
   },
   "GROWW": {
     "signal": "HOLD",
-    "score": -1.1,
-    "price": 198.7
+    "score": -2.7,
+    "price": 193.7
   },
   "HAL": {
     "signal": "BUY",
-    "score": 4.55,
-    "price": 5059.0
+    "score": 4.05,
+    "price": 5099.0
   },
   "HDFCAMC": {
     "signal": "HOLD",
-    "score": -1.95,
-    "price": 2521.15
+    "score": -1.45,
+    "price": 2525.0
   },
   "HDFCBANK": {
     "signal": "SELL",
-    "score": -5.2,
-    "price": 729.0
+    "score": -3.7,
+    "price": 723.0
   },
   "HINDCOPPER": {
     "signal": "BUY",
-    "score": 4.65,
-    "price": 572.5
+    "score": 4.6,
+    "price": 566.4
   },
   "HUDCO": {
     "signal": "SELL",
-    "score": -4.5,
-    "price": 189.15
+    "score": -5.0,
+    "price": 187.9
   },
   "ICICIBANK": {
     "signal": "BUY",
-    "score": 3.9,
-    "price": 1415.3
+    "score": 4.4,
+    "price": 1412.0
   },
   "IDEA": {
-    "signal": "HOLD",
-    "score": 1.35,
-    "price": 13.71
+    "signal": "BUY",
+    "score": 5.15,
+    "price": 14.12
   },
   "JIOFIN": {
     "signal": "HOLD",
-    "score": -0.75,
-    "price": 249.75
+    "score": -1.1,
+    "price": 245.8
   },
   "KALYANKJIL": {
     "signal": "BUY",
-    "score": 4.15,
-    "price": 609.25
+    "score": 4.5,
+    "price": 602.0
   },
   "KWIL": {
     "signal": "HOLD",
-    "score": 1.65,
-    "price": 38.73
+    "score": 1.3,
+    "price": 38.16
   },
   "NTPC": {
     "signal": "SELL",
     "score": -5.4,
-    "price": 337.0
+    "price": 337.1
   },
   "PAYTM": {
     "signal": "BUY",
-    "score": 3.35,
-    "price": 1583.0
+    "score": 3.75,
+    "price": 1546.9
   },
   "RELIANCE": {
     "signal": "HOLD",
-    "score": -1.6,
-    "price": 1316.0
+    "score": -1.3,
+    "price": 1322.0
   },
   "SBIN": {
     "signal": "BUY",
-    "score": 4.7,
-    "price": 1061.2
+    "score": 3.75,
+    "price": 1053.0
   },
   "SILVERIETF-E": {
     "signal": "HOLD",
@@ -146,27 +146,27 @@
   },
   "TARSONS": {
     "signal": "BUY",
-    "score": 5.35,
-    "price": 361.75
+    "score": 5.25,
+    "price": 337.1
   },
   "TITAN": {
     "signal": "BUY",
-    "score": 4.55,
-    "price": 5068.5
+    "score": 4.45,
+    "price": 5048.6
   },
   "UNIONBANK": {
     "signal": "BUY",
     "score": 4.5,
-    "price": 188.0
+    "price": 185.85
   },
   "VIYASH": {
     "signal": "HOLD",
-    "score": 0.8,
-    "price": 252.5
+    "score": 0.4,
+    "price": 254.65
   },
   "YESBANK": {
     "signal": "HOLD",
-    "score": 1.45,
-    "price": 22.91
+    "score": 0.8,
+    "price": 22.48
   }
 }

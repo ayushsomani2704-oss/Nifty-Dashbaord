@@ -1,5 +1,18 @@
 {
-  "generated": "2026-08-18T22:31:22",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-08-19T13:41:33",
+  "alertCount": 1,
+  "alerts": [
+    {
+      "symbol": "IDEA",
+      "exchange": "nse",
+      "qty": 31,
+      "avgPrice": 17.73,
+      "currentPrice": 14.12,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 5.15,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-08-19T13:41:33"
+    }
+  ]
 }
