@@ -1,18 +1,5 @@
 {
-  "generated": "2026-08-20T13:42:50",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "VIYASH",
-      "exchange": "bse",
-      "qty": 16,
-      "avgPrice": 275.01,
-      "currentPrice": 271.95,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.65,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-08-20T13:42:50"
-    }
-  ]
+  "generated": "2026-08-20T22:35:27",
+  "alertCount": 0,
+  "alerts": []
 }
