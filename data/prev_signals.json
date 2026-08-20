@@ -1,172 +1,172 @@
 {
   "APOLLOHOSP": {
     "signal": "BUY",
-    "score": 4.85,
-    "price": 8817.0
+    "score": 4.4,
+    "price": 8750.0
   },
   "ASIANPAINT": {
     "signal": "HOLD",
-    "score": 2.9,
-    "price": 2628.4
+    "score": 0.9,
+    "price": 2630.8
   },
   "ASTERDM": {
     "signal": "BUY",
-    "score": 3.9,
-    "price": 817.8
+    "score": 3.45,
+    "price": 800.7
   },
   "ATHERENERG": {
     "signal": "BUY",
-    "score": 3.25,
-    "price": 1465.45
+    "score": 4.25,
+    "price": 1438.65
   },
   "AUBANK": {
     "signal": "BUY",
-    "score": 5.2,
-    "price": 1076.0
+    "score": 5.0,
+    "price": 1071.3
   },
   "AXISBANK": {
     "signal": "HOLD",
     "score": -1.75,
-    "price": 1243.0
+    "price": 1235.0
   },
   "BANDHANBNK": {
     "signal": "HOLD",
-    "score": -1.35,
-    "price": 170.4
+    "score": -2.3,
+    "price": 169.3
   },
   "BHARTIARTL": {
     "signal": "HOLD",
-    "score": 0.8,
-    "price": 1934.2
+    "score": -0.85,
+    "price": 1922.0
   },
   "CELLO": {
     "signal": "HOLD",
-    "score": -1.9,
-    "price": 362.7
+    "score": -2.4,
+    "price": 358.45
   },
   "ECLERX": {
     "signal": "HOLD",
-    "score": -0.5,
-    "price": 1805.6
+    "score": -0.45,
+    "price": 1832.85
   },
   "FCL": {
     "signal": "BUY",
-    "score": 5.05,
-    "price": 43.81
+    "score": 4.65,
+    "price": 44.98
   },
   "FINPIPE": {
     "signal": "SELL",
-    "score": -5.8,
-    "price": 158.34
+    "score": -5.2,
+    "price": 158.26
   },
   "GOLD1-E": {
     "signal": "HOLD",
-    "score": 1.0,
+    "score": 1.5,
     "price": 126.43
   },
   "GROWW": {
     "signal": "HOLD",
-    "score": -2.7,
-    "price": 193.7
+    "score": -1.55,
+    "price": 194.2
   },
   "HAL": {
     "signal": "BUY",
     "score": 4.05,
-    "price": 5099.0
+    "price": 5017.0
   },
   "HDFCAMC": {
     "signal": "HOLD",
-    "score": -1.45,
-    "price": 2525.0
+    "score": -1.75,
+    "price": 2538.0
   },
   "HDFCBANK": {
     "signal": "SELL",
-    "score": -3.7,
-    "price": 723.0
+    "score": -4.2,
+    "price": 720.0
   },
   "HINDCOPPER": {
     "signal": "BUY",
-    "score": 4.6,
-    "price": 566.4
+    "score": 5.5,
+    "price": 554.9
   },
   "HUDCO": {
     "signal": "SELL",
     "score": -5.0,
-    "price": 187.9
+    "price": 188.55
   },
   "ICICIBANK": {
     "signal": "BUY",
-    "score": 4.4,
-    "price": 1412.0
+    "score": 4.1,
+    "price": 1402.0
   },
   "IDEA": {
     "signal": "BUY",
-    "score": 5.15,
-    "price": 14.12
+    "score": 3.65,
+    "price": 14.07
   },
   "JIOFIN": {
     "signal": "HOLD",
-    "score": -1.1,
-    "price": 245.8
+    "score": -1.4,
+    "price": 243.15
   },
   "KALYANKJIL": {
     "signal": "BUY",
     "score": 4.5,
-    "price": 602.0
+    "price": 595.0
   },
   "KWIL": {
     "signal": "HOLD",
     "score": 1.3,
-    "price": 38.16
+    "price": 37.7
   },
   "NTPC": {
     "signal": "SELL",
     "score": -5.4,
-    "price": 337.1
+    "price": 336.55
   },
   "PAYTM": {
     "signal": "BUY",
-    "score": 3.75,
-    "price": 1546.9
+    "score": 3.85,
+    "price": 1585.2
   },
   "RELIANCE": {
     "signal": "HOLD",
-    "score": -1.3,
-    "price": 1322.0
+    "score": -1.25,
+    "price": 1311.0
   },
   "SBIN": {
     "signal": "BUY",
-    "score": 3.75,
-    "price": 1053.0
+    "score": 3.95,
+    "price": 1048.6
   },
   "SILVERIETF-E": {
     "signal": "HOLD",
-    "score": -0.45,
+    "score": 0.55,
     "price": 221.62
   },
   "TARSONS": {
     "signal": "BUY",
-    "score": 5.25,
-    "price": 337.1
+    "score": 4.75,
+    "price": 343.05
   },
   "TITAN": {
     "signal": "BUY",
     "score": 4.45,
-    "price": 5048.6
+    "price": 5068.0
   },
   "UNIONBANK": {
     "signal": "BUY",
     "score": 4.5,
-    "price": 185.85
+    "price": 185.5
   },
   "VIYASH": {
-    "signal": "HOLD",
-    "score": 0.4,
-    "price": 254.65
+    "signal": "BUY",
+    "score": 3.65,
+    "price": 271.95
   },
   "YESBANK": {
     "signal": "HOLD",
-    "score": 0.8,
-    "price": 22.48
+    "score": 0.75,
+    "price": 22.71
   }
 }
