@@ -1,42 +1,5 @@
 {
-  "generated": "2026-08-21T13:43:26",
-  "alertCount": 3,
-  "alerts": [
-    {
-      "symbol": "APOLLOHOSP",
-      "exchange": "nse",
-      "qty": 5,
-      "avgPrice": 7389.25,
-      "currentPrice": 8735.0,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.4,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-08-21T13:43:26"
-    },
-    {
-      "symbol": "ASTERDM",
-      "exchange": "bse",
-      "qty": 50,
-      "avgPrice": 740.75,
-      "currentPrice": 761.4,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.8,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-08-21T13:43:26"
-    },
-    {
-      "symbol": "VIYASH",
-      "exchange": "bse",
-      "qty": 16,
-      "avgPrice": 275.01,
-      "currentPrice": 265.9,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.75,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-08-21T13:43:26"
-    }
-  ]
+  "generated": "2026-08-21T22:33:01",
+  "alertCount": 0,
+  "alerts": []
 }
