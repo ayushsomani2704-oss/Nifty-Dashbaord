@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T13:51:39",
-  "alertCount": 6,
+  "generated": "2026-08-27T03:03:55",
+  "alertCount": 1,
   "alerts": [
     {
       "symbol": "APOLLOHOSP",
@@ -8,71 +8,11 @@
       "qty": 5,
       "avgPrice": 7389.25,
       "currentPrice": 8889.0,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.35,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-08-26T13:51:39"
-    },
-    {
-      "symbol": "AXISBANK",
-      "exchange": "nse",
-      "qty": 49,
-      "avgPrice": 920.65,
-      "currentPrice": 1235.0,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -5.25,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-08-26T13:51:39"
-    },
-    {
-      "symbol": "CELLO",
-      "exchange": "bse",
-      "qty": 23,
-      "avgPrice": 648.0,
-      "currentPrice": 354.9,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.05,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-08-26T13:51:39"
-    },
-    {
-      "symbol": "HDFCAMC",
-      "exchange": "bse",
-      "qty": 15,
-      "avgPrice": 2591.55,
-      "currentPrice": 2687.0,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 4.3,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-08-26T13:51:39"
-    },
-    {
-      "symbol": "JIOFIN",
-      "exchange": "nse",
-      "qty": 74,
-      "avgPrice": 272.04,
-      "currentPrice": 243.15,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.0,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-08-26T13:51:39"
-    },
-    {
-      "symbol": "SBIN",
-      "exchange": "nse",
-      "qty": 50,
-      "avgPrice": 866.45,
-      "currentPrice": 1048.0,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.95,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-08-26T13:51:39"
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.85,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-08-27T03:03:55"
     }
   ]
 }
