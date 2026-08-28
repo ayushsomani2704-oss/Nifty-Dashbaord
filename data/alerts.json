@@ -1,5 +1,30 @@
 {
-  "generated": "2026-08-27T22:46:03",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-08-28T06:04:32",
+  "alertCount": 2,
+  "alerts": [
+    {
+      "symbol": "RELIANCE",
+      "exchange": "nse",
+      "qty": 32,
+      "avgPrice": 630.71,
+      "currentPrice": 1282.2,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -3.7,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-08-28T06:04:32"
+    },
+    {
+      "symbol": "VIYASH",
+      "exchange": "bse",
+      "qty": 16,
+      "avgPrice": 275.01,
+      "currentPrice": 263.25,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.3,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-08-28T06:04:32"
+    }
+  ]
 }
