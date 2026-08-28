@@ -1,30 +1,18 @@
 {
-  "generated": "2026-08-28T06:04:32",
-  "alertCount": 2,
+  "generated": "2026-08-28T22:53:45",
+  "alertCount": 1,
   "alerts": [
     {
-      "symbol": "RELIANCE",
-      "exchange": "nse",
-      "qty": 32,
-      "avgPrice": 630.71,
-      "currentPrice": 1282.2,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.7,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-08-28T06:04:32"
-    },
-    {
-      "symbol": "VIYASH",
+      "symbol": "HDFCAMC",
       "exchange": "bse",
-      "qty": 16,
-      "avgPrice": 275.01,
-      "currentPrice": 263.25,
+      "qty": 15,
+      "avgPrice": 2591.55,
+      "currentPrice": 2575.0,
       "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": 2.3,
+      "score": 1.7,
       "change": "BUY -> HOLD",
-      "timestamp": "2026-08-28T06:04:32"
+      "timestamp": "2026-08-28T22:53:45"
     }
   ]
 }
