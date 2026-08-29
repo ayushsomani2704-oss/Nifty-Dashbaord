@@ -1,18 +1,5 @@
 {
-  "generated": "2026-08-28T22:53:45",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "HDFCAMC",
-      "exchange": "bse",
-      "qty": 15,
-      "avgPrice": 2591.55,
-      "currentPrice": 2575.0,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.7,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-08-28T22:53:45"
-    }
-  ]
+  "generated": "2026-08-29T03:38:00",
+  "alertCount": 0,
+  "alerts": []
 }
