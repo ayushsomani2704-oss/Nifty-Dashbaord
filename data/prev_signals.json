@@ -61,8 +61,8 @@
   },
   "GOLD1-E": {
     "signal": "HOLD",
-    "score": 2.5,
-    "price": 130.85
+    "score": 2.75,
+    "price": 127.32
   },
   "GROWW": {
     "signal": "HOLD",
@@ -141,8 +141,8 @@
   },
   "SILVERIETF-E": {
     "signal": "HOLD",
-    "score": 1.7,
-    "price": 230.42
+    "score": 0.0,
+    "price": 223.21
   },
   "TARSONS": {
     "signal": "BUY",

@@ -1,42 +1,5 @@
 {
-  "generated": "2026-09-01T17:08:39",
-  "alertCount": 3,
-  "alerts": [
-    {
-      "symbol": "AXISBANK",
-      "exchange": "nse",
-      "qty": 49,
-      "avgPrice": 920.65,
-      "currentPrice": 1300.0,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": 0.05,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-09-01T17:08:39"
-    },
-    {
-      "symbol": "GOLD1-E",
-      "exchange": "nse",
-      "qty": 260,
-      "avgPrice": 112.57,
-      "currentPrice": 130.85,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.5,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-01T17:08:39"
-    },
-    {
-      "symbol": "VIYASH",
-      "exchange": "bse",
-      "qty": 16,
-      "avgPrice": 275.01,
-      "currentPrice": 263.75,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.6,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-01T17:08:39"
-    }
-  ]
+  "generated": "2026-09-01T23:56:38",
+  "alertCount": 0,
+  "alerts": []
 }
