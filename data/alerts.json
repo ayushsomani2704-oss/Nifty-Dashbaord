@@ -1,42 +1,18 @@
 {
-  "generated": "2026-08-31T19:23:38",
-  "alertCount": 3,
+  "generated": "2026-09-01T01:11:57",
+  "alertCount": 1,
   "alerts": [
     {
-      "symbol": "APOLLOHOSP",
+      "symbol": "GOLD1-E",
       "exchange": "nse",
-      "qty": 5,
-      "avgPrice": 7389.25,
-      "currentPrice": 8838.5,
+      "qty": 260,
+      "avgPrice": 112.57,
+      "currentPrice": 130.85,
       "prevSignal": "HOLD",
       "newSignal": "BUY",
-      "score": 3.05,
+      "score": 3.0,
       "change": "HOLD -> BUY",
-      "timestamp": "2026-08-31T19:23:38"
-    },
-    {
-      "symbol": "BHARTIARTL",
-      "exchange": "nse",
-      "qty": 19,
-      "avgPrice": 2056.55,
-      "currentPrice": 1882.4,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -5.0,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-08-31T19:23:38"
-    },
-    {
-      "symbol": "VIYASH",
-      "exchange": "bse",
-      "qty": 16,
-      "avgPrice": 275.01,
-      "currentPrice": 267.25,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.1,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-08-31T19:23:38"
+      "timestamp": "2026-09-01T01:11:57"
     }
   ]
 }
