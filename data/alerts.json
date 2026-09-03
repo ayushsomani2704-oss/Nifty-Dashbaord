@@ -1,5 +1,30 @@
 {
-  "generated": "2026-09-02T23:58:24",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-09-03T16:52:19",
+  "alertCount": 2,
+  "alerts": [
+    {
+      "symbol": "APOLLOHOSP",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 7389.25,
+      "currentPrice": 8719.0,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 0.75,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-03T16:52:18"
+    },
+    {
+      "symbol": "SBIN",
+      "exchange": "nse",
+      "qty": 50,
+      "avgPrice": 866.45,
+      "currentPrice": 1020.9,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": -0.05,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-03T16:52:19"
+    }
+  ]
 }
