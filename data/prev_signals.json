@@ -52,7 +52,7 @@
   "FCL": {
     "signal": "BUY",
     "score": 4.25,
-    "price": 49.19
+    "price": 49.14
   },
   "FINPIPE": {
     "signal": "SELL",
@@ -61,8 +61,8 @@
   },
   "GOLD1-E": {
     "signal": "HOLD",
-    "score": 1.6,
-    "price": 125.34
+    "score": 1.0,
+    "price": 123.52
   },
   "GROWW": {
     "signal": "HOLD",
@@ -140,9 +140,9 @@
     "price": 1020.9
   },
   "SILVERIETF-E": {
-    "signal": "HOLD",
-    "score": -1.6,
-    "price": 217.72
+    "signal": "SELL",
+    "score": -3.0,
+    "price": 215.45
   },
   "TARSONS": {
     "signal": "BUY",
