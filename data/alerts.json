@@ -1,18 +1,30 @@
 {
-  "generated": "2026-09-04T16:44:12",
-  "alertCount": 1,
+  "generated": "2026-09-04T23:53:03",
+  "alertCount": 2,
   "alerts": [
     {
-      "symbol": "ECLERX",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 1501.8,
-      "currentPrice": 1969.4,
+      "symbol": "GOLD1-E",
+      "exchange": "nse",
+      "qty": 260,
+      "avgPrice": 112.57,
+      "currentPrice": 126.23,
       "prevSignal": "HOLD",
       "newSignal": "BUY",
-      "score": 3.0,
+      "score": 4.6,
       "change": "HOLD -> BUY",
-      "timestamp": "2026-09-04T16:44:12"
+      "timestamp": "2026-09-04T23:53:03"
+    },
+    {
+      "symbol": "SILVERIETF-E",
+      "exchange": "nse",
+      "qty": 2489,
+      "avgPrice": 165.49,
+      "currentPrice": 219.88,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -1.3,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-09-04T23:53:03"
     }
   ]
 }
