@@ -1,30 +1,5 @@
 {
-  "generated": "2026-09-07T18:03:59",
-  "alertCount": 2,
-  "alerts": [
-    {
-      "symbol": "ECLERX",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 1501.8,
-      "currentPrice": 1909.9,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.9,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-07T18:03:59"
-    },
-    {
-      "symbol": "RELIANCE",
-      "exchange": "nse",
-      "qty": 32,
-      "avgPrice": 630.71,
-      "currentPrice": 1322.0,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -2.95,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-09-07T18:03:59"
-    }
-  ]
+  "generated": "2026-09-08T00:07:55",
+  "alertCount": 0,
+  "alerts": []
 }
