@@ -1,5 +1,66 @@
 {
-  "generated": "2026-09-09T00:01:29",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-09-09T17:01:13",
+  "alertCount": 5,
+  "alerts": [
+    {
+      "symbol": "APOLLOHOSP",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 7389.25,
+      "currentPrice": 8837.5,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.05,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-09-09T17:01:13"
+    },
+    {
+      "symbol": "AXISBANK",
+      "exchange": "nse",
+      "qty": 49,
+      "avgPrice": 920.65,
+      "currentPrice": 1244.9,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -3.05,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-09-09T17:01:13"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "exchange": "nse",
+      "qty": 19,
+      "avgPrice": 2056.55,
+      "currentPrice": 1844.0,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -2.0,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-09-09T17:01:13"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "exchange": "nse",
+      "qty": 24,
+      "avgPrice": 750.52,
+      "currentPrice": 1399.4,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.8,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-09T17:01:13"
+    },
+    {
+      "symbol": "RELIANCE",
+      "exchange": "nse",
+      "qty": 32,
+      "avgPrice": 630.71,
+      "currentPrice": 1294.9,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -4.75,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-09-09T17:01:13"
+    }
+  ]
 }

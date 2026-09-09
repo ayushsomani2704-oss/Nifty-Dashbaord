@@ -1,143 +1,143 @@
 {
   "APOLLOHOSP": {
-    "signal": "HOLD",
-    "score": 1.6,
-    "price": 8650.0
+    "signal": "BUY",
+    "score": 3.05,
+    "price": 8837.5
   },
   "ASIANPAINT": {
     "signal": "HOLD",
-    "score": -0.5,
-    "price": 2500.9
+    "score": -1.0,
+    "price": 2481.6
   },
   "ASTERDM": {
     "signal": "HOLD",
     "score": 1.25,
-    "price": 785.8
+    "price": 790.0
   },
   "ATHERENERG": {
     "signal": "BUY",
-    "score": 4.75,
-    "price": 1598.15
+    "score": 4.45,
+    "price": 1580.9
   },
   "AUBANK": {
     "signal": "BUY",
-    "score": 4.6,
-    "price": 1066.8
+    "score": 4.9,
+    "price": 1074.1
   },
   "AXISBANK": {
-    "signal": "HOLD",
-    "score": -1.3,
-    "price": 1273.0
+    "signal": "SELL",
+    "score": -3.05,
+    "price": 1244.9
   },
   "BANDHANBNK": {
     "signal": "HOLD",
-    "score": -2.2,
-    "price": 165.0
+    "score": -0.85,
+    "price": 172.0
   },
   "BHARTIARTL": {
-    "signal": "SELL",
-    "score": -4.7,
-    "price": 1854.0
+    "signal": "HOLD",
+    "score": -2.0,
+    "price": 1844.0
   },
   "CELLO": {
     "signal": "SELL",
-    "score": -3.85,
-    "price": 338.9
+    "score": -4.35,
+    "price": 344.05
   },
   "ECLERX": {
     "signal": "HOLD",
-    "score": 1.9,
-    "price": 1909.9
+    "score": 1.6,
+    "price": 1944.45
   },
   "FCL": {
     "signal": "BUY",
     "score": 4.2,
-    "price": 56.66
+    "price": 58.44
   },
   "FINPIPE": {
     "signal": "SELL",
-    "score": -4.75,
-    "price": 158.63
+    "score": -5.2,
+    "price": 157.86
   },
   "GOLD1-E": {
     "signal": "BUY",
-    "score": 4.4,
+    "score": 3.9,
     "price": 125.58
   },
   "GROWW": {
     "signal": "HOLD",
     "score": 0.45,
-    "price": 194.7
+    "price": 195.15
   },
   "HAL": {
     "signal": "BUY",
-    "score": 5.9,
-    "price": 4856.0
+    "score": 5.75,
+    "price": 5031.1
   },
   "HDFCAMC": {
     "signal": "HOLD",
     "score": -2.0,
-    "price": 2463.0
+    "price": 2455.0
   },
   "HDFCBANK": {
     "signal": "SELL",
     "score": -5.2,
-    "price": 710.5
+    "price": 703.0
   },
   "HINDCOPPER": {
     "signal": "BUY",
-    "score": 5.0,
-    "price": 521.55
+    "score": 5.6,
+    "price": 532.65
   },
   "HUDCO": {
     "signal": "SELL",
-    "score": -4.8,
-    "price": 180.5
+    "score": -4.0,
+    "price": 178.15
   },
   "ICICIBANK": {
-    "signal": "BUY",
-    "score": 4.75,
-    "price": 1427.5
+    "signal": "HOLD",
+    "score": 2.8,
+    "price": 1399.4
   },
   "IDEA": {
     "signal": "BUY",
-    "score": 5.65,
-    "price": 15.6
+    "score": 5.05,
+    "price": 15.42
   },
   "JIOFIN": {
     "signal": "SELL",
-    "score": -4.7,
-    "price": 239.5
+    "score": -5.3,
+    "price": 233.15
   },
   "KALYANKJIL": {
     "signal": "BUY",
-    "score": 4.8,
-    "price": 598.5
+    "score": 5.45,
+    "price": 612.45
   },
   "KWIL": {
     "signal": "HOLD",
     "score": 1.3,
-    "price": 41.16
+    "price": 41.43
   },
   "NTPC": {
     "signal": "SELL",
     "score": -5.05,
-    "price": 332.0
+    "price": 330.8
   },
   "PAYTM": {
     "signal": "BUY",
-    "score": 4.65,
-    "price": 1657.0
+    "score": 4.15,
+    "price": 1669.0
   },
   "RELIANCE": {
-    "signal": "HOLD",
-    "score": -1.25,
-    "price": 1309.5
+    "signal": "SELL",
+    "score": -4.75,
+    "price": 1294.9
   },
   "SBIN": {
     "signal": "HOLD",
-    "score": -0.7,
-    "price": 1005.9
+    "score": -1.7,
+    "price": 1008.0
   },
   "SILVERIETF-E": {
     "signal": "HOLD",
@@ -146,27 +146,27 @@
   },
   "TARSONS": {
     "signal": "BUY",
-    "score": 4.6,
-    "price": 334.95
+    "score": 3.85,
+    "price": 326.0
   },
   "TITAN": {
     "signal": "BUY",
-    "score": 4.25,
-    "price": 4995.0
+    "score": 4.75,
+    "price": 4987.0
   },
   "UNIONBANK": {
     "signal": "BUY",
-    "score": 5.05,
-    "price": 186.55
+    "score": 4.4,
+    "price": 183.0
   },
   "VIYASH": {
     "signal": "HOLD",
-    "score": 0.8,
-    "price": 265.4
+    "score": 0.75,
+    "price": 261.9
   },
   "YESBANK": {
     "signal": "HOLD",
-    "score": 0.15,
-    "price": 22.49
+    "score": 0.95,
+    "price": 22.55
   }
 }
