@@ -1,18 +1,5 @@
 {
-  "generated": "2026-09-11T16:53:08",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "ECLERX",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 1501.8,
-      "currentPrice": 1899.4,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.75,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-09-11T16:53:08"
-    }
-  ]
+  "generated": "2026-09-12T00:02:29",
+  "alertCount": 0,
+  "alerts": []
 }
