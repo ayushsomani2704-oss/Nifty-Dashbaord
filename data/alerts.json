@@ -1,5 +1,30 @@
 {
-  "generated": "2026-09-15T00:27:12",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-09-15T17:28:12",
+  "alertCount": 2,
+  "alerts": [
+    {
+      "symbol": "KWIL",
+      "exchange": "bse",
+      "qty": 20,
+      "avgPrice": 43.48,
+      "currentPrice": 43.05,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.65,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-15T17:28:12"
+    },
+    {
+      "symbol": "SILVERIETF-E",
+      "exchange": "nse",
+      "qty": 2489,
+      "avgPrice": 165.49,
+      "currentPrice": 216.72,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -3.9,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-09-15T17:28:12"
+    }
+  ]
 }
