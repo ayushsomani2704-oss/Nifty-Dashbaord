@@ -1,42 +1,66 @@
 {
-  "generated": "2026-09-17T00:18:09",
-  "alertCount": 3,
+  "generated": "2026-09-17T17:26:27",
+  "alertCount": 5,
   "alerts": [
     {
-      "symbol": "KWIL",
+      "symbol": "APOLLOHOSP",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 7389.25,
+      "currentPrice": 8696.5,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 1.25,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-17T17:26:27"
+    },
+    {
+      "symbol": "GROWW",
       "exchange": "bse",
-      "qty": 20,
-      "avgPrice": 43.48,
-      "currentPrice": 40.88,
+      "qty": 415,
+      "avgPrice": 179.27,
+      "currentPrice": 189.8,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 1.1,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-17T17:26:27"
+    },
+    {
+      "symbol": "HDFCAMC",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 2591.55,
+      "currentPrice": 2374.4,
       "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.2,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-09-17T00:18:09"
+      "newSignal": "SELL",
+      "score": -4.0,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-09-17T17:26:27"
+    },
+    {
+      "symbol": "TITAN",
+      "exchange": "nse",
+      "qty": 18,
+      "avgPrice": 3060.42,
+      "currentPrice": 4908.5,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.9,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-17T17:26:27"
     },
     {
       "symbol": "UNIONBANK",
       "exchange": "bse",
       "qty": 150,
       "avgPrice": 146.25,
-      "currentPrice": 175.3,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.0,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-09-17T00:18:09"
-    },
-    {
-      "symbol": "YESBANK",
-      "exchange": "bse",
-      "qty": 700,
-      "avgPrice": 21.99,
-      "currentPrice": 23.1,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.4,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-09-17T00:18:09"
+      "currentPrice": 177.6,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.5,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-17T17:26:27"
     }
   ]
 }
