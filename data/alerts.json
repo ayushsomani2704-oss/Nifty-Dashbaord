@@ -1,42 +1,18 @@
 {
-  "generated": "2026-09-16T17:27:18",
-  "alertCount": 5,
+  "generated": "2026-09-17T00:18:09",
+  "alertCount": 3,
   "alerts": [
     {
-      "symbol": "AUBANK",
+      "symbol": "KWIL",
       "exchange": "bse",
-      "qty": 14,
-      "avgPrice": 251.5,
-      "currentPrice": 1030.0,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.4,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-16T17:27:18"
-    },
-    {
-      "symbol": "HINDCOPPER",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 738.55,
-      "currentPrice": 490.19,
+      "qty": 20,
+      "avgPrice": 43.48,
+      "currentPrice": 40.88,
       "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.6,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-09-16T17:27:18"
-    },
-    {
-      "symbol": "TARSONS",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 504.6,
-      "currentPrice": 302.0,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.25,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-16T17:27:18"
+      "newSignal": "BUY",
+      "score": 3.2,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-09-17T00:18:09"
     },
     {
       "symbol": "UNIONBANK",
@@ -44,11 +20,11 @@
       "qty": 150,
       "avgPrice": 146.25,
       "currentPrice": 175.3,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.5,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-16T17:27:18"
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.0,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-09-17T00:18:09"
     },
     {
       "symbol": "YESBANK",
@@ -56,11 +32,11 @@
       "qty": 700,
       "avgPrice": 21.99,
       "currentPrice": 23.1,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.9,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-16T17:27:18"
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.4,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-09-17T00:18:09"
     }
   ]
 }
