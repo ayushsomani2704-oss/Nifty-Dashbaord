@@ -1,18 +1,30 @@
 {
-  "generated": "2026-09-18T00:02:46",
-  "alertCount": 1,
+  "generated": "2026-09-18T16:55:18",
+  "alertCount": 2,
   "alerts": [
     {
-      "symbol": "KWIL",
-      "exchange": "bse",
-      "qty": 20,
-      "avgPrice": 43.48,
-      "currentPrice": 41.34,
+      "symbol": "HAL",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 4618.65,
+      "currentPrice": 4788.0,
       "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": 2.7,
+      "score": 2.4,
       "change": "BUY -> HOLD",
-      "timestamp": "2026-09-18T00:02:46"
+      "timestamp": "2026-09-18T16:55:18"
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "exchange": "bse",
+      "qty": 25,
+      "avgPrice": 512.0,
+      "currentPrice": 580.0,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.85,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-18T16:55:18"
     }
   ]
 }
