@@ -1,30 +1,42 @@
 {
-  "generated": "2026-09-18T16:55:18",
-  "alertCount": 2,
+  "generated": "2026-09-19T00:04:47",
+  "alertCount": 3,
   "alerts": [
     {
-      "symbol": "HAL",
+      "symbol": "AXISBANK",
       "exchange": "nse",
-      "qty": 5,
-      "avgPrice": 4618.65,
-      "currentPrice": 4788.0,
-      "prevSignal": "BUY",
+      "qty": 49,
+      "avgPrice": 920.65,
+      "currentPrice": 1257.0,
+      "prevSignal": "SELL",
       "newSignal": "HOLD",
-      "score": 2.4,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-18T16:55:18"
+      "score": -2.45,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-09-19T00:04:47"
     },
     {
-      "symbol": "KALYANKJIL",
-      "exchange": "bse",
-      "qty": 25,
-      "avgPrice": 512.0,
-      "currentPrice": 580.0,
+      "symbol": "GOLD1-E",
+      "exchange": "nse",
+      "qty": 260,
+      "avgPrice": 112.57,
+      "currentPrice": 124.43,
       "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": 2.85,
+      "score": 2.6,
       "change": "BUY -> HOLD",
-      "timestamp": "2026-09-18T16:55:18"
+      "timestamp": "2026-09-19T00:04:47"
+    },
+    {
+      "symbol": "TITAN",
+      "exchange": "nse",
+      "qty": 18,
+      "avgPrice": 3060.42,
+      "currentPrice": 4798.5,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.0,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-09-19T00:04:47"
     }
   ]
 }
