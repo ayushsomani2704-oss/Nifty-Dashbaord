@@ -1,42 +1,42 @@
 {
-  "generated": "2026-09-19T00:04:47",
+  "generated": "2026-09-21T18:27:38",
   "alertCount": 3,
   "alerts": [
     {
-      "symbol": "AXISBANK",
+      "symbol": "APOLLOHOSP",
       "exchange": "nse",
-      "qty": 49,
-      "avgPrice": 920.65,
-      "currentPrice": 1257.0,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -2.45,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-09-19T00:04:47"
+      "qty": 5,
+      "avgPrice": 7389.25,
+      "currentPrice": 8944.5,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 5.5,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-09-21T18:27:38"
     },
     {
       "symbol": "GOLD1-E",
       "exchange": "nse",
       "qty": 260,
       "avgPrice": 112.57,
-      "currentPrice": 124.43,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.6,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-19T00:04:47"
-    },
-    {
-      "symbol": "TITAN",
-      "exchange": "nse",
-      "qty": 18,
-      "avgPrice": 3060.42,
-      "currentPrice": 4798.5,
+      "currentPrice": 126.48,
       "prevSignal": "HOLD",
       "newSignal": "BUY",
-      "score": 3.0,
+      "score": 4.55,
       "change": "HOLD -> BUY",
-      "timestamp": "2026-09-19T00:04:47"
+      "timestamp": "2026-09-21T18:27:38"
+    },
+    {
+      "symbol": "SILVERIETF-E",
+      "exchange": "nse",
+      "qty": 2489,
+      "avgPrice": 165.49,
+      "currentPrice": 224.07,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -2.45,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-09-21T18:27:38"
     }
   ]
 }
