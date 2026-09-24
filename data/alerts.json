@@ -1,42 +1,5 @@
 {
-  "generated": "2026-09-24T00:22:45",
-  "alertCount": 3,
-  "alerts": [
-    {
-      "symbol": "HDFCBANK",
-      "exchange": "nse",
-      "qty": 88,
-      "avgPrice": 851.18,
-      "currentPrice": 737.25,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -1.8,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-09-24T00:22:45"
-    },
-    {
-      "symbol": "SILVERIETF-E",
-      "exchange": "nse",
-      "qty": 2489,
-      "avgPrice": 165.49,
-      "currentPrice": 220.27,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.45,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-09-24T00:22:45"
-    },
-    {
-      "symbol": "TARSONS",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 504.6,
-      "currentPrice": 331.4,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.55,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-24T00:22:45"
-    }
-  ]
+  "generated": "2026-09-24T17:44:33",
+  "alertCount": 0,
+  "alerts": []
 }
