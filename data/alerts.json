@@ -1,5 +1,18 @@
 {
-  "generated": "2026-09-25T17:45:19",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-09-26T00:29:53",
+  "alertCount": 1,
+  "alerts": [
+    {
+      "symbol": "YESBANK",
+      "exchange": "bse",
+      "qty": 700,
+      "avgPrice": 21.99,
+      "currentPrice": 22.44,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.0,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-26T00:29:53"
+    }
+  ]
 }
