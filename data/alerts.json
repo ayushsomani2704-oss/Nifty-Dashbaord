@@ -1,5 +1,30 @@
 {
-  "generated": "2026-09-28T19:59:18",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-09-29T01:42:17",
+  "alertCount": 2,
+  "alerts": [
+    {
+      "symbol": "BHARTIARTL",
+      "exchange": "nse",
+      "qty": 19,
+      "avgPrice": 2056.55,
+      "currentPrice": 1771.4,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -5.0,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-09-29T01:42:17"
+    },
+    {
+      "symbol": "IDEA",
+      "exchange": "nse",
+      "qty": 31,
+      "avgPrice": 17.73,
+      "currentPrice": 13.47,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.3,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-09-29T01:42:17"
+    }
+  ]
 }
