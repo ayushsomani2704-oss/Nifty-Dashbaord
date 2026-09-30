@@ -1,18 +1,5 @@
 {
-  "generated": "2026-09-30T01:12:35",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "HDFCBANK",
-      "exchange": "nse",
-      "qty": 88,
-      "avgPrice": 851.18,
-      "currentPrice": 722.7,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.55,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-09-30T01:12:35"
-    }
-  ]
+  "generated": "2026-09-30T18:16:55",
+  "alertCount": 0,
+  "alerts": []
 }
