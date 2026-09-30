@@ -1,42 +1,18 @@
 {
-  "generated": "2026-09-29T18:28:20",
-  "alertCount": 3,
+  "generated": "2026-09-30T01:12:35",
+  "alertCount": 1,
   "alerts": [
     {
-      "symbol": "ATHERENERG",
-      "exchange": "bse",
-      "qty": 24,
-      "avgPrice": 952.55,
-      "currentPrice": 1456.0,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.45,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-29T18:28:20"
-    },
-    {
-      "symbol": "BANDHANBNK",
-      "exchange": "bse",
-      "qty": 6,
-      "avgPrice": 205.9,
-      "currentPrice": 181.5,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 1.5,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-29T18:28:20"
-    },
-    {
-      "symbol": "ECLERX",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 1501.8,
-      "currentPrice": 1819.45,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.2,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-09-29T18:28:20"
+      "symbol": "HDFCBANK",
+      "exchange": "nse",
+      "qty": 88,
+      "avgPrice": 851.18,
+      "currentPrice": 722.7,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -3.55,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-09-30T01:12:35"
     }
   ]
 }
