@@ -1,5 +1,18 @@
 {
-  "generated": "2026-09-30T18:16:55",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-10-01T01:13:01",
+  "alertCount": 1,
+  "alerts": [
+    {
+      "symbol": "APOLLOHOSP",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 7389.25,
+      "currentPrice": 8165.5,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.2,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-01T01:13:01"
+    }
+  ]
 }
