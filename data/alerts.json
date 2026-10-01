@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-01T01:13:01",
+  "generated": "2026-10-01T18:42:22",
   "alertCount": 1,
   "alerts": [
     {
-      "symbol": "APOLLOHOSP",
-      "exchange": "nse",
-      "qty": 5,
-      "avgPrice": 7389.25,
-      "currentPrice": 8165.5,
+      "symbol": "TARSONS",
+      "exchange": "bse",
+      "qty": 30,
+      "avgPrice": 504.6,
+      "currentPrice": 320.8,
       "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": 2.2,
+      "score": 2.15,
       "change": "BUY -> HOLD",
-      "timestamp": "2026-10-01T01:13:01"
+      "timestamp": "2026-10-01T18:42:22"
     }
   ]
 }
