@@ -1,5 +1,18 @@
 {
-  "generated": "2026-10-02T01:30:42",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-10-02T18:11:57",
+  "alertCount": 1,
+  "alerts": [
+    {
+      "symbol": "TARSONS",
+      "exchange": "bse",
+      "qty": 30,
+      "avgPrice": 504.6,
+      "currentPrice": 328.45,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 4.75,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-10-02T18:11:57"
+    }
+  ]
 }
