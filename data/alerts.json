@@ -1,18 +1,30 @@
 {
-  "generated": "2026-10-07T01:22:20",
-  "alertCount": 1,
+  "generated": "2026-10-07T19:13:21",
+  "alertCount": 2,
   "alerts": [
     {
-      "symbol": "ASIANPAINT",
-      "exchange": "nse",
-      "qty": 25,
-      "avgPrice": 2625.54,
-      "currentPrice": 2424.2,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -2.25,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-10-07T01:22:20"
+      "symbol": "ECLERX",
+      "exchange": "bse",
+      "qty": 30,
+      "avgPrice": 1501.8,
+      "currentPrice": 1913.3,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.7,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-10-07T19:13:21"
+    },
+    {
+      "symbol": "GROWW",
+      "exchange": "bse",
+      "qty": 415,
+      "avgPrice": 179.27,
+      "currentPrice": 193.15,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.4,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-10-07T19:13:21"
     }
   ]
 }
