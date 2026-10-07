@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-06T18:47:39",
+  "generated": "2026-10-07T01:22:20",
   "alertCount": 1,
   "alerts": [
     {
-      "symbol": "BANDHANBNK",
-      "exchange": "bse",
-      "qty": 6,
-      "avgPrice": 205.9,
-      "currentPrice": 168.8,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.3,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-10-06T18:47:39"
+      "symbol": "ASIANPAINT",
+      "exchange": "nse",
+      "qty": 25,
+      "avgPrice": 2625.54,
+      "currentPrice": 2424.2,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -2.25,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-10-07T01:22:20"
     }
   ]
 }
