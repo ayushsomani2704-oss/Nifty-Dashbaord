@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T19:13:21",
+  "generated": "2026-10-08T01:42:24",
   "alertCount": 2,
   "alerts": [
     {
@@ -8,11 +8,11 @@
       "qty": 30,
       "avgPrice": 1501.8,
       "currentPrice": 1913.3,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.7,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-10-07T19:13:21"
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.7,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-08T01:42:24"
     },
     {
       "symbol": "GROWW",
@@ -20,11 +20,11 @@
       "qty": 415,
       "avgPrice": 179.27,
       "currentPrice": 193.15,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.4,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-10-07T19:13:21"
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.9,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-08T01:42:24"
     }
   ]
 }
