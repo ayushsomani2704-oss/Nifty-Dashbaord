@@ -1,30 +1,18 @@
 {
-  "generated": "2026-10-08T19:09:17",
-  "alertCount": 2,
+  "generated": "2026-10-09T01:55:14",
+  "alertCount": 1,
   "alerts": [
     {
-      "symbol": "CELLO",
-      "exchange": "bse",
-      "qty": 23,
-      "avgPrice": 648.0,
-      "currentPrice": 390.1,
+      "symbol": "AXISBANK",
+      "exchange": "nse",
+      "qty": 49,
+      "avgPrice": 920.65,
+      "currentPrice": 1245.0,
       "prevSignal": "SELL",
       "newSignal": "HOLD",
-      "score": -2.35,
+      "score": -2.95,
       "change": "SELL -> HOLD",
-      "timestamp": "2026-10-08T19:09:17"
-    },
-    {
-      "symbol": "GROWW",
-      "exchange": "bse",
-      "qty": 415,
-      "avgPrice": 179.27,
-      "currentPrice": 197.75,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.3,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-10-08T19:09:17"
+      "timestamp": "2026-10-09T01:55:14"
     }
   ]
 }
