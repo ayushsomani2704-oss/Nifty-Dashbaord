@@ -1,18 +1,5 @@
 {
-  "generated": "2026-10-09T18:39:43",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "GROWW",
-      "exchange": "bse",
-      "qty": 415,
-      "avgPrice": 179.27,
-      "currentPrice": 192.75,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.9,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-10-09T18:39:43"
-    }
-  ]
+  "generated": "2026-10-10T01:38:43",
+  "alertCount": 0,
+  "alerts": []
 }
