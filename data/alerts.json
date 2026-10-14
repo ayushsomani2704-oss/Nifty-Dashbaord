@@ -1,18 +1,30 @@
 {
-  "generated": "2026-10-14T01:04:36",
-  "alertCount": 1,
+  "generated": "2026-10-14T17:46:15",
+  "alertCount": 2,
   "alerts": [
     {
-      "symbol": "HAL",
-      "exchange": "nse",
-      "qty": 5,
-      "avgPrice": 4618.65,
-      "currentPrice": 4869.0,
+      "symbol": "ECLERX",
+      "exchange": "bse",
+      "qty": 30,
+      "avgPrice": 1501.8,
+      "currentPrice": 1965.05,
       "prevSignal": "HOLD",
       "newSignal": "BUY",
-      "score": 3.2,
+      "score": 6.3,
       "change": "HOLD -> BUY",
-      "timestamp": "2026-10-14T01:04:36"
+      "timestamp": "2026-10-14T17:46:15"
+    },
+    {
+      "symbol": "GROWW",
+      "exchange": "bse",
+      "qty": 415,
+      "avgPrice": 179.27,
+      "currentPrice": 193.8,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.4,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-10-14T17:46:15"
     }
   ]
 }
