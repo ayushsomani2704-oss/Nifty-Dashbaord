@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-16T00:12:46",
+  "generated": "2026-10-16T17:11:14",
   "alertCount": 1,
   "alerts": [
     {
-      "symbol": "ICICIBANK",
-      "exchange": "nse",
-      "qty": 24,
-      "avgPrice": 750.52,
-      "currentPrice": 1389.4,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.0,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-10-16T00:12:46"
+      "symbol": "TARSONS",
+      "exchange": "bse",
+      "qty": 30,
+      "avgPrice": 504.6,
+      "currentPrice": 327.3,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.6,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-16T17:11:14"
     }
   ]
 }
