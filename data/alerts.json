@@ -1,30 +1,5 @@
 {
-  "generated": "2026-10-19T18:59:37",
-  "alertCount": 2,
-  "alerts": [
-    {
-      "symbol": "BHARTIARTL",
-      "exchange": "nse",
-      "qty": 19,
-      "avgPrice": 2056.55,
-      "currentPrice": 1905.0,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -1.0,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-10-19T18:59:37"
-    },
-    {
-      "symbol": "TARSONS",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 504.6,
-      "currentPrice": 330.8,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.6,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-10-19T18:59:37"
-    }
-  ]
+  "generated": "2026-10-20T01:01:47",
+  "alertCount": 0,
+  "alerts": []
 }
