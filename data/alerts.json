@@ -1,5 +1,30 @@
 {
-  "generated": "2026-10-22T00:34:02",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-10-22T17:51:54",
+  "alertCount": 2,
+  "alerts": [
+    {
+      "symbol": "GROWW",
+      "exchange": "bse",
+      "qty": 415,
+      "avgPrice": 179.27,
+      "currentPrice": 190.55,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.65,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-22T17:51:54"
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 910.22,
+      "currentPrice": 1666.5,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.45,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-22T17:51:54"
+    }
+  ]
 }
