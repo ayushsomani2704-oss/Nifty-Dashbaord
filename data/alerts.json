@@ -1,5 +1,18 @@
 {
-  "generated": "2026-10-24T00:28:05",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-10-26T19:01:55",
+  "alertCount": 1,
+  "alerts": [
+    {
+      "symbol": "UNIONBANK",
+      "exchange": "bse",
+      "qty": 150,
+      "avgPrice": 146.25,
+      "currentPrice": 178.5,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.4,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-26T19:01:55"
+    }
+  ]
 }
