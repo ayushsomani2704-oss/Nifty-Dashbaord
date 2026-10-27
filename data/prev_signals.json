@@ -1,7 +1,7 @@
 {
   "APOLLOHOSP": {
     "signal": "HOLD",
-    "score": -2.2,
+    "score": -1.7,
     "price": 7730.0
   },
   "ASIANPAINT": {
@@ -16,12 +16,12 @@
   },
   "ATHERENERG": {
     "signal": "HOLD",
-    "score": 0.15,
+    "score": 0.65,
     "price": 1383.85
   },
   "AUBANK": {
     "signal": "HOLD",
-    "score": -1.7,
+    "score": -2.7,
     "price": 934.0
   },
   "AXISBANK": {
@@ -36,7 +36,7 @@
   },
   "BHARTIARTL": {
     "signal": "HOLD",
-    "score": 0.05,
+    "score": -0.45,
     "price": 1892.1
   },
   "CELLO": {
@@ -46,17 +46,17 @@
   },
   "ECLERX": {
     "signal": "BUY",
-    "score": 4.25,
+    "score": 3.75,
     "price": 1892.2
   },
   "FCL": {
     "signal": "HOLD",
-    "score": 0.75,
+    "score": 0.25,
     "price": 49.12
   },
   "FINPIPE": {
     "signal": "SELL",
-    "score": -5.8,
+    "score": -5.3,
     "price": 142.4
   },
   "GOLD1-E": {
@@ -70,13 +70,13 @@
     "price": 181.45
   },
   "HAL": {
-    "signal": "BUY",
-    "score": 3.3,
+    "signal": "HOLD",
+    "score": 2.8,
     "price": 4725.0
   },
   "HDFCAMC": {
     "signal": "SELL",
-    "score": -5.7,
+    "score": -5.2,
     "price": 2250.0
   },
   "HDFCBANK": {
@@ -86,7 +86,7 @@
   },
   "HINDCOPPER": {
     "signal": "SELL",
-    "score": -4.35,
+    "score": -3.85,
     "price": 399.4
   },
   "HUDCO": {
@@ -111,7 +111,7 @@
   },
   "KALYANKJIL": {
     "signal": "HOLD",
-    "score": 0.6,
+    "score": 0.1,
     "price": 512.2
   },
   "KWIL": {
@@ -126,12 +126,12 @@
   },
   "PAYTM": {
     "signal": "HOLD",
-    "score": -0.15,
+    "score": 0.35,
     "price": 1612.0
   },
   "RELIANCE": {
     "signal": "SELL",
-    "score": -5.55,
+    "score": -5.05,
     "price": 1190.0
   },
   "SBIN": {
@@ -141,22 +141,22 @@
   },
   "SILVERIETF-E": {
     "signal": "SELL",
-    "score": -4.65,
+    "score": -4.15,
     "price": 183.67
   },
   "TARSONS": {
     "signal": "HOLD",
-    "score": 0.55,
+    "score": 0.05,
     "price": 299.95
   },
   "TITAN": {
     "signal": "HOLD",
-    "score": -1.9,
+    "score": -1.4,
     "price": 4299.7
   },
   "UNIONBANK": {
     "signal": "HOLD",
-    "score": 2.4,
+    "score": 1.9,
     "price": 178.5
   },
   "VIYASH": {
@@ -166,7 +166,7 @@
   },
   "YESBANK": {
     "signal": "SELL",
-    "score": -4.2,
+    "score": -3.7,
     "price": 15.79
   }
 }
