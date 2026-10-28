@@ -1,54 +1,30 @@
 {
-  "generated": "2026-10-27T18:33:41",
-  "alertCount": 4,
+  "generated": "2026-10-28T01:05:58",
+  "alertCount": 2,
   "alerts": [
     {
-      "symbol": "ATHERENERG",
+      "symbol": "ASTERDM",
       "exchange": "bse",
-      "qty": 24,
-      "avgPrice": 952.55,
-      "currentPrice": 1574.0,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.45,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-10-27T18:33:41"
-    },
-    {
-      "symbol": "CELLO",
-      "exchange": "bse",
-      "qty": 23,
-      "avgPrice": 648.0,
-      "currentPrice": 340.5,
+      "qty": 50,
+      "avgPrice": 740.75,
+      "currentPrice": 648.2,
       "prevSignal": "HOLD",
       "newSignal": "SELL",
-      "score": -3.1,
+      "score": -3.0,
       "change": "HOLD -> SELL",
-      "timestamp": "2026-10-27T18:33:41"
+      "timestamp": "2026-10-28T01:05:58"
     },
     {
-      "symbol": "ECLERX",
-      "exchange": "bse",
-      "qty": 30,
-      "avgPrice": 1501.8,
-      "currentPrice": 1878.6,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.95,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-10-27T18:33:41"
-    },
-    {
-      "symbol": "UNIONBANK",
-      "exchange": "bse",
-      "qty": 150,
-      "avgPrice": 146.25,
-      "currentPrice": 181.1,
+      "symbol": "HAL",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 4618.65,
+      "currentPrice": 4855.0,
       "prevSignal": "HOLD",
       "newSignal": "BUY",
-      "score": 3.0,
+      "score": 5.2,
       "change": "HOLD -> BUY",
-      "timestamp": "2026-10-27T18:33:41"
+      "timestamp": "2026-10-28T01:05:58"
     }
   ]
 }
