@@ -1,18 +1,42 @@
 {
-  "generated": "2026-10-29T01:41:53",
-  "alertCount": 1,
+  "generated": "2026-10-29T18:48:18",
+  "alertCount": 3,
   "alerts": [
     {
-      "symbol": "ASTERDM",
+      "symbol": "CELLO",
       "exchange": "bse",
-      "qty": 50,
-      "avgPrice": 740.75,
-      "currentPrice": 664.65,
-      "prevSignal": "SELL",
+      "qty": 23,
+      "avgPrice": 648.0,
+      "currentPrice": 331.55,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -3.35,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-10-29T18:48:18"
+    },
+    {
+      "symbol": "ECLERX",
+      "exchange": "bse",
+      "qty": 30,
+      "avgPrice": 1501.8,
+      "currentPrice": 1867.65,
+      "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": -2.1,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-10-29T01:41:53"
+      "score": 2.3,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-29T18:48:18"
+    },
+    {
+      "symbol": "KWIL",
+      "exchange": "bse",
+      "qty": 20,
+      "avgPrice": 43.48,
+      "currentPrice": 36.26,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -3.1,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-10-29T18:48:18"
     }
   ]
 }
