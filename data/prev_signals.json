@@ -1,172 +1,172 @@
 {
   "APOLLOHOSP": {
     "signal": "HOLD",
-    "score": 0.65,
-    "price": 8137.0
+    "score": 0.9,
+    "price": 8200.0
   },
   "ASIANPAINT": {
     "signal": "SELL",
-    "score": -5.7,
-    "price": 2284.6
+    "score": -6.2,
+    "price": 2302.0
   },
   "ASTERDM": {
     "signal": "HOLD",
-    "score": -2.1,
-    "price": 669.65
+    "score": -1.25,
+    "price": 678.95
   },
   "ATHERENERG": {
     "signal": "BUY",
-    "score": 4.65,
-    "price": 1648.7
+    "score": 3.65,
+    "price": 1659.0
   },
   "AUBANK": {
     "signal": "HOLD",
     "score": -1.1,
-    "price": 879.0
+    "price": 879.5
   },
   "AXISBANK": {
     "signal": "SELL",
     "score": -5.2,
-    "price": 1220.0
+    "price": 1225.0
   },
   "BANDHANBNK": {
     "signal": "SELL",
-    "score": -6.5,
-    "price": 155.8
+    "score": -5.75,
+    "price": 162.0
   },
   "BHARTIARTL": {
     "signal": "HOLD",
-    "score": 2.0,
-    "price": 1948.1
+    "score": 1.0,
+    "price": 1972.1
   },
   "CELLO": {
     "signal": "SELL",
-    "score": -3.35,
-    "price": 331.55
+    "score": -4.6,
+    "price": 342.5
   },
   "ECLERX": {
-    "signal": "BUY",
-    "score": 3.3,
-    "price": 1867.65
+    "signal": "HOLD",
+    "score": -2.8,
+    "price": 1660.3
   },
   "FCL": {
     "signal": "HOLD",
-    "score": 0.25,
-    "price": 50.01
+    "score": 0.35,
+    "price": 51.19
   },
   "FINPIPE": {
     "signal": "SELL",
-    "score": -4.3,
-    "price": 141.24
+    "score": -5.3,
+    "price": 142.06
   },
   "GOLD1-E": {
-    "signal": "HOLD",
-    "score": -1.9,
-    "price": 117.13
+    "signal": "SELL",
+    "score": -4.9,
+    "price": 116.37
   },
   "GROWW": {
     "signal": "HOLD",
     "score": 1.95,
-    "price": 190.35
+    "price": 191.25
   },
   "HAL": {
     "signal": "BUY",
-    "score": 5.2,
-    "price": 4850.0
+    "score": 4.7,
+    "price": 4869.9
   },
   "HDFCAMC": {
     "signal": "SELL",
     "score": -4.55,
-    "price": 2309.45
+    "price": 2317.7
   },
   "HDFCBANK": {
     "signal": "SELL",
     "score": -5.7,
-    "price": 685.3
+    "price": 683.3
   },
   "HINDCOPPER": {
     "signal": "SELL",
-    "score": -3.35,
-    "price": 409.1
+    "score": -3.25,
+    "price": 412.25
   },
   "HUDCO": {
     "signal": "SELL",
-    "score": -3.55,
-    "price": 146.85
+    "score": -4.55,
+    "price": 147.6
   },
   "ICICIBANK": {
     "signal": "BUY",
-    "score": 3.6,
-    "price": 1377.6
+    "score": 4.6,
+    "price": 1386.6
   },
   "IDEA": {
     "signal": "HOLD",
-    "score": -2.2,
-    "price": 11.86
+    "score": -2.3,
+    "price": 12.12
   },
   "JIOFIN": {
     "signal": "SELL",
-    "score": -5.05,
-    "price": 205.15
+    "score": -5.9,
+    "price": 207.0
   },
   "KALYANKJIL": {
     "signal": "HOLD",
-    "score": 1.6,
-    "price": 510.0
+    "score": 0.6,
+    "price": 515.0
   },
   "KWIL": {
     "signal": "HOLD",
-    "score": -2.1,
-    "price": 36.26
+    "score": -2.2,
+    "price": 35.75
   },
   "NTPC": {
     "signal": "SELL",
-    "score": -5.2,
-    "price": 303.75
+    "score": -5.55,
+    "price": 310.5
   },
   "PAYTM": {
     "signal": "HOLD",
-    "score": 0.95,
-    "price": 1629.8
+    "score": 2.6,
+    "price": 1687.05
   },
   "RELIANCE": {
     "signal": "SELL",
-    "score": -5.2,
-    "price": 1158.0
+    "score": -5.7,
+    "price": 1167.4
   },
   "SBIN": {
     "signal": "SELL",
-    "score": -5.25,
-    "price": 956.8
+    "score": -4.9,
+    "price": 971.9
   },
   "SILVERIETF-E": {
     "signal": "SELL",
-    "score": -4.15,
-    "price": 183.61
+    "score": -3.85,
+    "price": 179.81
   },
   "TARSONS": {
     "signal": "HOLD",
     "score": 0.35,
-    "price": 304.15
+    "price": 303.85
   },
   "TITAN": {
     "signal": "HOLD",
-    "score": -2.3,
-    "price": 4337.9
+    "score": -1.0,
+    "price": 4434.0
   },
   "UNIONBANK": {
     "signal": "BUY",
-    "score": 4.8,
-    "price": 182.0
+    "score": 4.0,
+    "price": 186.15
   },
   "VIYASH": {
     "signal": "HOLD",
-    "score": -1.45,
-    "price": 228.1
+    "score": -2.45,
+    "price": 224.85
   },
   "YESBANK": {
     "signal": "SELL",
     "score": -3.7,
-    "price": 15.62
+    "price": 15.45
   }
 }

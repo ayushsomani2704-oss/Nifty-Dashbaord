@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T01:48:39",
+  "generated": "2026-10-30T18:24:24",
   "alertCount": 2,
   "alerts": [
     {
@@ -7,24 +7,24 @@
       "exchange": "bse",
       "qty": 30,
       "avgPrice": 1501.8,
-      "currentPrice": 1867.65,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.3,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-10-30T01:48:39"
+      "currentPrice": 1660.3,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": -2.8,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-10-30T18:24:24"
     },
     {
-      "symbol": "KWIL",
-      "exchange": "bse",
-      "qty": 20,
-      "avgPrice": 43.48,
-      "currentPrice": 36.26,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -2.1,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-10-30T01:48:39"
+      "symbol": "GOLD1-E",
+      "exchange": "nse",
+      "qty": 260,
+      "avgPrice": 112.57,
+      "currentPrice": 116.37,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -4.9,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-10-30T18:24:24"
     }
   ]
 }
