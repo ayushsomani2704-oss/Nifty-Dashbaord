@@ -1,5 +1,54 @@
 {
-  "generated": "2026-11-04T02:04:32",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-11-04T20:15:55",
+  "alertCount": 4,
+  "alerts": [
+    {
+      "symbol": "HDFCAMC",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 2591.55,
+      "currentPrice": 2432.0,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -2.2,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-11-04T20:15:55"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "exchange": "nse",
+      "qty": 88,
+      "avgPrice": 851.18,
+      "currentPrice": 725.5,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -2.7,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-11-04T20:15:55"
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 910.22,
+      "currentPrice": 1715.0,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.05,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-11-04T20:15:55"
+    },
+    {
+      "symbol": "RELIANCE",
+      "exchange": "nse",
+      "qty": 32,
+      "avgPrice": 630.71,
+      "currentPrice": 1307.9,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -2.1,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-11-04T20:15:55"
+    }
+  ]
 }
