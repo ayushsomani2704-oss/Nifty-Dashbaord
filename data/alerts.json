@@ -1,42 +1,42 @@
 {
-  "generated": "2026-11-05T02:08:10",
+  "generated": "2026-11-05T20:29:07",
   "alertCount": 3,
   "alerts": [
+    {
+      "symbol": "APOLLOHOSP",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 7389.25,
+      "currentPrice": 8599.5,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.8,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-11-05T20:29:07"
+    },
     {
       "symbol": "HDFCAMC",
       "exchange": "bse",
       "qty": 15,
       "avgPrice": 2591.55,
-      "currentPrice": 2432.0,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.2,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-11-05T02:08:10"
-    },
-    {
-      "symbol": "HDFCBANK",
-      "exchange": "nse",
-      "qty": 88,
-      "avgPrice": 851.18,
-      "currentPrice": 725.5,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.2,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-11-05T02:08:10"
+      "currentPrice": 2500.4,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -1.2,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-11-05T20:29:07"
     },
     {
       "symbol": "PAYTM",
       "exchange": "bse",
       "qty": 15,
       "avgPrice": 910.22,
-      "currentPrice": 1715.0,
-      "prevSignal": "BUY",
-      "newSignal": "HOLD",
-      "score": 2.55,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-11-05T02:08:10"
+      "currentPrice": 1733.95,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 4.65,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-11-05T20:29:07"
     }
   ]
 }
