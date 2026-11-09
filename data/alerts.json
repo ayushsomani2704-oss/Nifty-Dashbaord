@@ -1,5 +1,66 @@
 {
-  "generated": "2026-11-07T01:46:43",
-  "alertCount": 0,
-  "alerts": []
+  "generated": "2026-11-09T22:52:38",
+  "alertCount": 5,
+  "alerts": [
+    {
+      "symbol": "AUBANK",
+      "exchange": "bse",
+      "qty": 14,
+      "avgPrice": 251.5,
+      "currentPrice": 929.9,
+      "prevSignal": "HOLD",
+      "newSignal": "SELL",
+      "score": -4.25,
+      "change": "HOLD -> SELL",
+      "timestamp": "2026-11-09T22:52:38"
+    },
+    {
+      "symbol": "JIOFIN",
+      "exchange": "nse",
+      "qty": 74,
+      "avgPrice": 272.04,
+      "currentPrice": 231.2,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -1.4,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-11-09T22:52:38"
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "exchange": "bse",
+      "qty": 25,
+      "avgPrice": 512.0,
+      "currentPrice": 590.0,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.95,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-11-09T22:52:38"
+    },
+    {
+      "symbol": "NTPC",
+      "exchange": "nse",
+      "qty": 50,
+      "avgPrice": 356.0,
+      "currentPrice": 323.45,
+      "prevSignal": "SELL",
+      "newSignal": "HOLD",
+      "score": -0.7,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-11-09T22:52:38"
+    },
+    {
+      "symbol": "TITAN",
+      "exchange": "nse",
+      "qty": 18,
+      "avgPrice": 3060.42,
+      "currentPrice": 5000.0,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 4.9,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-11-09T22:52:38"
+    }
+  ]
 }
