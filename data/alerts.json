@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-12T02:49:00",
+  "generated": "2026-11-12T20:40:02",
   "alertCount": 1,
   "alerts": [
     {
-      "symbol": "BHARTIARTL",
-      "exchange": "nse",
-      "qty": 19,
-      "avgPrice": 2056.55,
-      "currentPrice": 2109.0,
+      "symbol": "VIYASH",
+      "exchange": "bse",
+      "qty": 16,
+      "avgPrice": 275.01,
+      "currentPrice": 253.65,
       "prevSignal": "HOLD",
       "newSignal": "BUY",
-      "score": 4.5,
+      "score": 4.9,
       "change": "HOLD -> BUY",
-      "timestamp": "2026-11-12T02:49:00"
+      "timestamp": "2026-11-12T20:40:02"
     }
   ]
 }
