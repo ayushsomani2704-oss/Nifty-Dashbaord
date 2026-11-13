@@ -1,18 +1,30 @@
 {
-  "generated": "2026-11-13T02:31:43",
-  "alertCount": 1,
+  "generated": "2026-11-13T20:16:35",
+  "alertCount": 2,
   "alerts": [
     {
-      "symbol": "HUDCO",
+      "symbol": "ASTERDM",
       "exchange": "bse",
       "qty": 50,
-      "avgPrice": 269.96,
-      "currentPrice": 171.2,
+      "avgPrice": 740.75,
+      "currentPrice": 736.15,
+      "prevSignal": "HOLD",
+      "newSignal": "BUY",
+      "score": 3.0,
+      "change": "HOLD -> BUY",
+      "timestamp": "2026-11-13T20:16:35"
+    },
+    {
+      "symbol": "BANDHANBNK",
+      "exchange": "bse",
+      "qty": 6,
+      "avgPrice": 205.9,
+      "currentPrice": 175.7,
       "prevSignal": "SELL",
       "newSignal": "HOLD",
-      "score": -2.4,
+      "score": -0.15,
       "change": "SELL -> HOLD",
-      "timestamp": "2026-11-13T02:31:43"
+      "timestamp": "2026-11-13T20:16:35"
     }
   ]
 }
