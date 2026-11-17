@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-16T22:44:01",
+  "generated": "2026-11-17T04:25:59",
   "alertCount": 1,
   "alerts": [
     {
-      "symbol": "ASTERDM",
-      "exchange": "bse",
-      "qty": 50,
-      "avgPrice": 740.75,
-      "currentPrice": 722.2,
+      "symbol": "HAL",
+      "exchange": "nse",
+      "qty": 5,
+      "avgPrice": 4618.65,
+      "currentPrice": 4789.0,
       "prevSignal": "BUY",
       "newSignal": "HOLD",
-      "score": 0.25,
+      "score": 2.6,
       "change": "BUY -> HOLD",
-      "timestamp": "2026-11-16T22:44:01"
+      "timestamp": "2026-11-17T04:25:59"
     }
   ]
 }
