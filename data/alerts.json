@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-18T03:32:03",
+  "generated": "2026-11-18T21:04:15",
   "alertCount": 1,
   "alerts": [
     {
-      "symbol": "VIYASH",
+      "symbol": "AUBANK",
       "exchange": "bse",
-      "qty": 16,
-      "avgPrice": 275.01,
-      "currentPrice": 236.25,
-      "prevSignal": "BUY",
+      "qty": 14,
+      "avgPrice": 251.5,
+      "currentPrice": 995.0,
+      "prevSignal": "SELL",
       "newSignal": "HOLD",
-      "score": 2.25,
-      "change": "BUY -> HOLD",
-      "timestamp": "2026-11-18T03:32:03"
+      "score": -2.95,
+      "change": "SELL -> HOLD",
+      "timestamp": "2026-11-18T21:04:15"
     }
   ]
 }
