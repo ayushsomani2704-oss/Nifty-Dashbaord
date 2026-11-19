@@ -1,18 +1,5 @@
 {
-  "generated": "2026-11-18T21:04:15",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "AUBANK",
-      "exchange": "bse",
-      "qty": 14,
-      "avgPrice": 251.5,
-      "currentPrice": 995.0,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -2.95,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-11-18T21:04:15"
-    }
-  ]
+  "generated": "2026-11-19T03:04:35",
+  "alertCount": 0,
+  "alerts": []
 }
