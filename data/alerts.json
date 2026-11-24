@@ -1,30 +1,18 @@
 {
-  "generated": "2026-11-24T05:51:04",
-  "alertCount": 2,
+  "generated": "2026-11-24T22:55:16",
+  "alertCount": 1,
   "alerts": [
     {
-      "symbol": "NTPC",
-      "exchange": "nse",
-      "qty": 50,
-      "avgPrice": 356.0,
-      "currentPrice": 315.45,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.05,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-11-24T05:51:04"
-    },
-    {
-      "symbol": "TITAN",
-      "exchange": "nse",
-      "qty": 18,
-      "avgPrice": 3060.42,
-      "currentPrice": 4680.0,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 4.25,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-11-24T05:51:04"
+      "symbol": "PAYTM",
+      "exchange": "bse",
+      "qty": 15,
+      "avgPrice": 910.22,
+      "currentPrice": 1728.0,
+      "prevSignal": "BUY",
+      "newSignal": "HOLD",
+      "score": 2.45,
+      "change": "BUY -> HOLD",
+      "timestamp": "2026-11-24T22:55:16"
     }
   ]
 }
