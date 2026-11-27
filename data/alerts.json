@@ -1,18 +1,5 @@
 {
-  "generated": "2026-11-26T22:06:32",
-  "alertCount": 1,
-  "alerts": [
-    {
-      "symbol": "HUDCO",
-      "exchange": "bse",
-      "qty": 50,
-      "avgPrice": 269.96,
-      "currentPrice": 155.3,
-      "prevSignal": "HOLD",
-      "newSignal": "SELL",
-      "score": -3.1,
-      "change": "HOLD -> SELL",
-      "timestamp": "2026-11-26T22:06:32"
-    }
-  ]
+  "generated": "2026-11-27T04:03:06",
+  "alertCount": 0,
+  "alerts": []
 }
