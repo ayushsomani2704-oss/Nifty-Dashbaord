@@ -1,30 +1,5 @@
 {
-  "generated": "2026-11-27T21:48:25",
-  "alertCount": 2,
-  "alerts": [
-    {
-      "symbol": "HUDCO",
-      "exchange": "bse",
-      "qty": 50,
-      "avgPrice": 269.96,
-      "currentPrice": 154.8,
-      "prevSignal": "SELL",
-      "newSignal": "HOLD",
-      "score": -2.75,
-      "change": "SELL -> HOLD",
-      "timestamp": "2026-11-27T21:48:25"
-    },
-    {
-      "symbol": "PAYTM",
-      "exchange": "bse",
-      "qty": 15,
-      "avgPrice": 910.22,
-      "currentPrice": 1768.0,
-      "prevSignal": "HOLD",
-      "newSignal": "BUY",
-      "score": 3.9,
-      "change": "HOLD -> BUY",
-      "timestamp": "2026-11-27T21:48:25"
-    }
-  ]
+  "generated": "2026-11-28T03:49:57",
+  "alertCount": 0,
+  "alerts": []
 }
